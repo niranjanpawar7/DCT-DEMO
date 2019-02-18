@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.nopadding {
-    padding: 0px;
-  }
+
   .nopadding.aniket{
     height: 100%;
     background: #2B62CA;
@@ -52,4 +50,10 @@
     opacity: 0.5;	color: #FFFFFF;	font-family: Lato;	font-size: 11px;	letter-spacing: 1px;	line-height: 13px;	text-align: center;
   } 
   
+  .custom-logo{
+    width: 90px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0px;
+  }
   

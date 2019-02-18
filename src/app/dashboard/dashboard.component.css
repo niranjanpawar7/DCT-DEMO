@@ -1,4 +1,72 @@
-mat-card{
+.Events-panel mat-card{
     border-radius: 9px;
     background: #fff;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+}
+.Events-panel mat-card-content{
+    padding-left:  0px;
+    padding-right: 0px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    float: left;
+    width: 100%;
+}
+.Events-panel mat-card-content .left-content{
+    color: #1D232F;		font-size: 40px;	line-height: 35px;
+}
+.Events-panel mat-card-content .right-content{
+    color: #2B62CA;		font-size: 14px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
+}
+.Events-panel mat-card-content .upper-text{
+    color: #1D232F;		font-size: 16px;	line-height: 19px;	text-align: right;
+}
+.Events-panel mat-card-content .middle-panel{
+    color: #1D232F;		font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 12px;
+    padding-bottom: 18px;
+}
+.Events-panel mat-card-content .icon-panel span{
+    margin-right: 15px;
+}
+.news-wrap mat-card,
+.training-wrap mat-card {
+    border-radius: 0px;
+    border-bottom: 1px solid #E9EFF9;
+    color: #2B62CA; 
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+} 
+.news-wrap mat-card:first-child,
+.training-wrap mat-card:first-child{
+    border-radius: 8px 8px 0px 0px; 
+}
+.news-wrap mat-card:last-child,
+.training-wrap mat-card:last-child{
+    border-radius: 0px 0px 8px 8px; 
+}
+.news-wrap span,
+.training-wrap span{
+    color: #1D232F;
+    font-size: 12px;
+    font-weight: bold;
+} 
+ 
+.nopadding {
+    padding: 0px;
+} 
+.training-wrap mat-card{
+    float: left;
+    width:100%;
+}
+.progress-badge{
+    height: 10px;
+    width: 10px;
+    background: orange;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    margin-top: 6px;
 }

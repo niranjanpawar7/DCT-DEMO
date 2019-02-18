@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { MatSidenavModule, MatToolbarModule,
          MatCheckboxModule, MatFormFieldModule,
          MatInputModule, MatCardModule,
-         MatButtonModule 
-        } from '@angular/material'; 
-         
+         MatButtonModule, MatGridListModule, 
+        } from '@angular/material';  
+import {MatBadgeModule} from '@angular/material/badge';         
+
 @NgModule({
   imports: [
     CommonModule,
@@ -14,11 +15,14 @@ import { MatSidenavModule, MatToolbarModule,
     MatCheckboxModule, 
     MatFormFieldModule, 
     MatInputModule, 
-    MatButtonModule 
+    MatButtonModule ,
+    MatGridListModule,
+    MatBadgeModule
   ],
   exports: [ MatSidenavModule, MatToolbarModule,
              MatCheckboxModule, MatFormFieldModule,
-             MatInputModule, MatCardModule, MatButtonModule
+             MatInputModule, MatCardModule, MatButtonModule,
+             MatGridListModule, MatBadgeModule
            ]
 })
 export class AppMaterialModule {};
