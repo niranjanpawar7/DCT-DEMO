@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+.nopadding {
+    padding: 0px;
+  }
+  .nopadding.aniket{
+    height: 100%;
+    background: #2B62CA;
+  }
+  
+  .aniket {
+    position: fixed;
+    height: 100%;
+    background: #2B62CA;
+  }
+  .nopadding {
+    padding: 0px;
+  }
+  .navbar-nav>li{
+      float: left;
+      width: 100%;
+      cursor: pointer; 
+  }
+  .footer-wrapper{
+    margin-top: 500px;
+  }    
+  .footer-wrapper,
+  .header-wrapper{
+    background-color: green;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    background: #2B62CA;
+    border: 1px solid #cecece;
+    padding: 10px 0px;
+    text-align: center
+  }
+  .navbar-default .navbar-nav > li >:hover {
+    background: #9ebbfa; 
+    opacity: 1;
+  }
+   
+  .navbar {
+    border-radius: 0px;
+  }
+  .navbar.navbar-default{
+    background-color: none !important;
+  }
+  .nav.navbar-nav li img{
+    margin: auto;
+  } 
+  .nav-pad{
+    opacity: 0.5;	color: #FFFFFF;	font-family: Lato;	font-size: 11px;	letter-spacing: 1px;	line-height: 13px;	text-align: center;
+  } 
+  
+  

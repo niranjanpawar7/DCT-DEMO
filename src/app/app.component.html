@@ -1,0 +1,81 @@
+<div class="col-md-1 nopadding aniket">
+  <div class="col-md-12" style="	background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%); padding: 0px">
+    <img src="assets/icons/main-icon.svg" class="img-responsive" />
+  </div><!-- col-md-12-->
+  <div class="clearfix"></div>
+  <div class="col-md-12 nopadding">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Menu</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" style="padding:0px">
+          <ul class="nav navbar-nav" style="padding:0px; width:100%">
+
+            <li routerLink='/dashboard'>
+              <a>
+                <span class="nav-pad">
+                  <img src="assets/icons/dashboard.svg" class="img-responsive" />
+                  Dashboard
+                </span>
+              </a>
+            </li>
+
+            <li routerLink='/calender'>
+              <a>
+                <span class="nav-pad">
+                    <img src="assets/icons/calendar.svg" class="img-responsive" />
+                    Calender
+                  </span>
+              </a>
+            </li>
+
+            <li routerLink='/training'>
+              <a>
+                <span class="nav-pad">
+                    <img src="assets/icons/training.svg" class="img-responsive" />
+                  Training
+                </span>
+              </a>
+            </li>
+
+            <li routerLink='/mystory'>
+              <a>
+                <span class="nav-pad">
+                    <img src="assets/icons/slides.svg" class="img-responsive" />
+                  My Story
+                </span>
+              </a>
+            </li>
+
+            <li routerLink='/myprofile'>
+              <a>
+                <span class="nav-pad">
+                    <img src="assets/icons/profile.svg" class="img-responsive" />
+                  My Profile
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div><!-- navbar -->
+    </div><!-- sidebar-nav -->
+  </div><!-- col-md-12 -->
+  <div class="clearfix"></div>
+</div>
+<div class="col-md-1"></div><!-- col-md-2 -->
+
+<div class="col-md-11 nopadding">
+  <app-header></app-header>
+  <div class="col-md-12" style="background:#cecece; padding-left: 60px; padding-right: 60px;">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>
