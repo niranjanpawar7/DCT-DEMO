@@ -7,7 +7,7 @@ import { AppBootstrapModule } from '../app/bootstrap.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CalenderComponent } from './calender/calender.component';
+ 
 import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
@@ -17,8 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    CalenderComponent,
+    DashboardComponent, 
     TrainingComponent,
     MyStoryComponent,
     MyProfileComponent,

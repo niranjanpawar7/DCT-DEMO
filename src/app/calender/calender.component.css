@@ -1,0 +1,7 @@
+.mat-tab-body-wrapper{
+    float: left;
+    width: 100%;
+    background: red;
+    padding: 10px;
+    color: white;
+}
