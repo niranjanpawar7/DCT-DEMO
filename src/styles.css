@@ -7,3 +7,20 @@ body{
 .nopadding {
     padding: 0px;
   }
+
+.mat-tab-label-container .mat-tab-list .mat-tab-labels {
+    display: flex;
+    float: right;
+} 
+.mat-tab-body-content {
+  height: 100%;
+  overflow: auto;
+  float: left;
+  width: 100%;
+  background: white;
+  padding: 15px;
+}
+mat-card{
+  float: left;
+  width: 100%;
+}
