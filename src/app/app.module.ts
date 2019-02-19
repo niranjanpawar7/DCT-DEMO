@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppMaterialModule } from '../app/material.module'; 
 import { AppBootstrapModule } from '../app/bootstrap.module'; 
@@ -28,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     AppMaterialModule,
-    AppBootstrapModule
+    AppBootstrapModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
