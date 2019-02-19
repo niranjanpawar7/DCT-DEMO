@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
-import {MatTabsModule} from '@angular/material/tabs';
+import {MatTabsModule, MatCardModule} from '@angular/material';
   
  
 
 @NgModule({
   imports: [
     CommonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
    
   ],
   exports: [  
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ]
 })
 export class CalenderMaterialModule {};

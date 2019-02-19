@@ -1,28 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
-import { MatSidenavModule, MatToolbarModule,
-         MatCheckboxModule, MatFormFieldModule,
-         MatInputModule, MatCardModule,
-         MatButtonModule, MatGridListModule, 
-        } from '@angular/material';  
-import {MatBadgeModule} from '@angular/material/badge';         
+import { MatBadgeModule, MatCardModule, 
+        } from '@angular/material';           
 
 @NgModule({
   imports: [
-    CommonModule,
-    MatSidenavModule, 
-    MatToolbarModule, 
-    MatCheckboxModule, 
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatButtonModule ,
-    MatGridListModule,
-    MatBadgeModule
+            CommonModule, MatBadgeModule
   ],
-  exports: [ MatSidenavModule, MatToolbarModule,
-             MatCheckboxModule, MatFormFieldModule,
-             MatInputModule, MatCardModule, MatButtonModule,
-             MatGridListModule, MatBadgeModule
-           ]
+  exports: [ 
+             MatCardModule, MatBadgeModule
+  ]
 })
 export class AppMaterialModule {};
