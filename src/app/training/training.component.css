@@ -23,25 +23,21 @@
 .oval{
     height: 13px;
     width: 13px;	
-    background-color: #D0021B;
     border-radius: 50%;
     margin-top: 21px;
 }
-.oval2 {
-    height: 13px;
-    width: 13px;	
-    background-color: #F5A623;
-    border-radius: 50%;
-    margin-top: 21px;
-}
-.oval3 {
-    height: 13px;
-    width: 13px;	
-    background-color: #7ED321;
-    border-radius: 50%;
-    margin-top: 21px;
-}
+
+
 .vertival-line {
     border-left:1px solid #dbe6f8;
     border-right:1px solid #dbe6f8;
+}
+.oval-color1{
+    background-color: #D0021B;
+}
+.oval-color2{
+    background-color: #F5A623;
+}
+.oval-color3{
+    background-color: #7ED321;
 }
