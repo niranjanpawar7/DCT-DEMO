@@ -16,11 +16,15 @@ body{
   height: 100%;
   overflow: auto;
   float: left;
-  width: 100%;
-  background: white;
+  width: 100%; 
   padding: 15px;
+}
+.mat-tab-body-wrapper .mat-tab-body-content{
+  padding: 15px 0px;
 }
 mat-card{
   float: left;
   width: 100%;
 }
+
+

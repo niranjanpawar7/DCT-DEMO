@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { AppBootstrapModule } from './bootstrap.module'
 import { AppMaterialModule } from '../app/material.module'; 
 import { AppRoutingModule } from './app-routing.module'; 
 
@@ -12,6 +12,8 @@ import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventDetailComponent } from './event-detail/event-detail.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -21,13 +23,15 @@ import { FooterComponent } from './footer/footer.component';
     MyStoryComponent,
     MyProfileComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    EventDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AppMaterialModule, 
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppBootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]

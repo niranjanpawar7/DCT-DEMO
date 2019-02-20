@@ -24,11 +24,14 @@
     color: #1D232F;		font-size: 14px;	line-height: 19px;	text-align: right;
 }
 .Events-panel mat-card-content .middle-panel{
-    color: #1D232F;		font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 12px;
-    padding-bottom: 18px;
+    color: #1D232F;	padding-bottom: 18px;	font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 20px; 
 }
 .Events-panel mat-card-content .icon-panel span{
     margin-right: 15px;
+    
+}
+mat-card{
+    cursor: pointer;
 }
 .news-wrap mat-card,
 .training-wrap mat-card {

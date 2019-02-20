@@ -57,3 +57,9 @@
   padding: 10px 0px;
   }
   
+  @media only screen and (max-width: 800px) {
+    .aniket {
+      position: relative;
+      
+    }
+  }
