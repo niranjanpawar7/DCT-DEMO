@@ -52,3 +52,29 @@
     box-shadow: 0px 1px 1px 1px;
     padding-top: 0px;
 }
+.my-profile-section-circle .mat-badge-medium.mat-badge-overlap .mat-badge-content{
+    height: 43px;
+    width: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+    /* background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%); */
+    color: #fff;
+    position: relative;
+    float: right;
+    top: -20px;
+    transform: rotateY(180deg);
+    background-color: #285fb1;
+}
+.my-profile-section-circle2 .mat-badge-medium.mat-badge-overlap .mat-badge-content{
+    height: 43px;
+    width: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+    /* background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%); */
+    color: #fff;
+    position: relative;
+    float: right;
+    top: -30px;
+    transform: rotateY(180deg);
+    background-color: #285fb1;
+}
