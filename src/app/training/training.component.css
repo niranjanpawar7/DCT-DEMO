@@ -1,0 +1,47 @@
+.training-section1 mat-card {
+    /* border-radius: 0px; */
+    /* border-bottom: 1px solid #E9EFF9; */
+    color: #313338; 
+    font-size: 14px;	
+    font-weight: 500;	
+    box-shadow: inset 0 0 5px #d6d6e0;
+    margin-bottom: 15px;
+} 
+.training-heading {
+    color: #2B62CA;
+    font-weight: bold;
+}
+.training-floating {
+    float: right;
+    font-size: 11px;
+}
+.training-align {
+    padding-top: 20px;
+    font-size: 12px;
+    margin-left: -10px;
+}
+.oval{
+    height: 13px;
+    width: 13px;	
+    background-color: #D0021B;
+    border-radius: 50%;
+    margin-top: 21px;
+}
+.oval2 {
+    height: 13px;
+    width: 13px;	
+    background-color: #F5A623;
+    border-radius: 50%;
+    margin-top: 21px;
+}
+.oval3 {
+    height: 13px;
+    width: 13px;	
+    background-color: #7ED321;
+    border-radius: 50%;
+    margin-top: 21px;
+}
+.vertival-line {
+    border-left:1px solid #dbe6f8;
+    border-right:1px solid #dbe6f8;
+}
