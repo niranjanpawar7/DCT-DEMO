@@ -28,17 +28,17 @@
   .navbar-default .navbar-nav>li>a {
     color: #FFFFFF;
     background: #2B62CA;
-    border: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
     padding: 10px 0px;
     text-align: center
   }
   .navbar-default .navbar-nav > li >:hover {
     background: #9ebbfa; 
     opacity: 1;
-  }
-   
+  } 
   .navbar {
     border-radius: 0px;
+    border: none;
   }
   .navbar.navbar-default{
     background-color: none !important;
@@ -57,3 +57,9 @@
   padding: 10px 0px;
   }
   
+  @media only screen and (max-width: 800px) {
+    .aniket {
+      position: relative;
+      
+    }
+  }

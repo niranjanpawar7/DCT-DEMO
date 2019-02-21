@@ -1,0 +1,83 @@
+.my-profile-heading{
+    color: #1D232F;
+}
+.my-profile-sub-heading{
+    color: #a4a6b9;
+}
+.download-button-section2 {
+    border: 0px solid;
+    padding: 12px;
+    width: 50%;
+    height: 42px;
+    box-shadow: 0px 1px 1px 1px;
+    background-color: #f7faff;
+    color: #2B62CA; 
+    
+}
+.my-profile-section1 mat-card,
+.my-profile-section2 mat-card {
+    /* border-radius: 0px; */
+    /* border-bottom: 1px solid #E9EFF9; */
+    color: #313338; 
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+    box-shadow: inset 0 0 5px #d6d6e0;
+    margin-bottom: 30px;
+} 
+.my-profile-info {
+    color: #444444;
+    font-family: Lato;
+    font-size: 16px;
+}
+.align-div{
+    line-height: 10px;
+    padding-bottom: 20px;
+}
+.align-div1{
+    padding-bottom: 20px; 
+}
+.align-div-padding{
+    padding-bottom: 20px;   
+     margin-left: -5%;
+     line-height: 10px;
+}
+.button-circle{
+    border-radius: 50%;
+    background-color: #4479f1;
+    border: 0px solid;
+    /* padding: 12px; */
+    width: 8%;
+    height: 50px;
+    box-shadow: 0px 1px 1px 1px;
+    padding-top: 0px;
+}
+.my-profile-section-circle .mat-badge-medium.mat-badge-overlap .mat-badge-content{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #285fb1;
+    border-radius: 50%;
+    padding-top: 10px; 
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    float: right;
+    top: -20px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: #285fb1;
+    vertical-align: middle;
+}
+.my-profile-section-circle2 .mat-badge-medium.mat-badge-overlap .mat-badge-content{
+    height: 43px;
+    width: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+    /* background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%); */
+    color: #fff;
+    position: relative;
+    float: right;
+    top: -30px;
+    transform: rotateY(180deg);
+    background-color: #285fb1;
+}
