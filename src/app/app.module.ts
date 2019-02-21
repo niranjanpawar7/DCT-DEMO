@@ -11,9 +11,7 @@ import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { EventDetailComponent } from './event-detail/event-detail.component';
-import { from } from 'rxjs';
+import { FooterComponent } from './footer/footer.component';  
 
 @NgModule({
   declarations: [
@@ -23,8 +21,7 @@ import { from } from 'rxjs';
     MyStoryComponent,
     MyProfileComponent,
     HeaderComponent,
-    FooterComponent,
-    EventDetailComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

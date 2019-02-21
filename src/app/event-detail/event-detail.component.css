@@ -1,0 +1,101 @@
+mat-card{
+    margin-bottom: 15px; 
+}
+.nopadding{
+    padding: 0px;
+}
+.bottom-panel p:first-child{
+    color: #B6B6B6;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.bottom-panel p{
+    color: #444444;
+    font-size: 13px;
+}
+.icon-panel{
+    padding-top: 15px;
+}
+.icon-panel span{
+    margin-right: 15px;
+}
+.bottom-panel{
+    margin-bottom: 10px;
+}
+.left-content{
+    color: #1D232F;
+    font-size: 40px;
+    line-height: 25px;
+}
+.left-content span{
+    color: #1D232F;
+    font-size: 12px;
+    /* line-height: 19px; */
+    text-align: right;
+    margin-bottom: 10px;
+}
+hr {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.left-content.m-tp-minus{
+    margin-top:-20px;
+}
+.top-panel .col-md-11.nopadding{
+    padding-top: 15px;
+    color: #2B62CA;	
+    font-family: Lato;	
+    font-size: 19px;	
+    font-weight: bold;	 
+}
+.left-panel{
+    border-right: 1px solid #cecece;
+}  
+.left-panel p:first-child,
+.right-panel p:first-child{
+    color: #1D232F;	font-family: Lato;	font-weight: 500; margin-bottom: 7px;    
+}
+.text-size{
+    color: #1D232F;	font-size: 12px;	font-weight: 500; margin-bottom: 7px;    
+}
+.btn.btn-plain{
+    padding: 5px 10px;    
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 12px;
+    color: #2B62CA;
+    border-radius: 0px;
+}
+.expenses-wrap .btn.btn-plain{
+    text-align: center;
+    width: 210px;
+    padding: 5px;
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 12px;
+    color: #2B62CA;
+    border-radius: 0px;
+}
+.Travelling-wrapper  mat-card .flight-panel{
+    border-right: 1px solid #cecece;
+    color: #1D232F;
+}
+
+.Travelling-wrapper  mat-card .flight-panel p{
+    margin-bottom: 2px;
+}
+.Travelling-wrapper  mat-card .flight-panel p:first-child,
+.Travelling-wrapper  mat-card .hotel-panel p:first-child{
+    color: #B6B6B6;
+}
+.Travelling-wrapper  mat-card .flight-panel p span{
+    color: #cecece;
+}
+.Travelling-wrapper  mat-card .flight-panel p:nth-child(2){
+    margin-bottom: 15px;
+}
+.expenses-wrap{
+    font-size: 14px;
+}

@@ -15,6 +15,7 @@
 .Calender mat-card .right-content{
     color: #2B62CA;		font-size: 16px; line-height: 20px; 
     padding-top: 20px;
+    cursor: pointer;
 }
 .Calender mat-card .upper-text{
     color: #1D232F;		font-size: 14px;  
