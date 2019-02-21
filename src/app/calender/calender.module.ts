@@ -4,6 +4,8 @@ import { RouterModule, Routes } from "@angular/router";
 import { CalenderMaterialModule } from './calender-material.module';
 import { calenderRoutingModule } from './routing-calender.module';  
 import { CalenderComponent } from './calender.component';
+
+import { EventDetailComponent } from '../event-detail/event-detail.component';
  
 
 @NgModule({
@@ -14,7 +16,8 @@ import { CalenderComponent } from './calender.component';
       CalenderMaterialModule 
     ],
   declarations: [
-    CalenderComponent
+    CalenderComponent,
+    EventDetailComponent 
   ]
 })
 
