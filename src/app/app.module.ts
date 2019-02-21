@@ -11,7 +11,8 @@ import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';  
+import { FooterComponent } from './footer/footer.component';
+import { TrainingDetailComponent } from './training-detail/training-detail.component';  
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     MyStoryComponent,
     MyProfileComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TrainingDetailComponent
   ],
   imports: [
     BrowserModule,

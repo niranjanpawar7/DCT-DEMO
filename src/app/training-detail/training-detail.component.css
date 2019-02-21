@@ -1,0 +1,72 @@
+.training-floating {
+    float: right;
+    font-size: 11px;
+    margin-left:42%;
+    padding-top: 10px;
+}
+.hr-align{
+    margin-top: 0px;
+    border-top: 1px solid #b8cef1;
+}
+.oval{
+    height: 13px;
+    width: 13px;	
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -19px;
+}
+.oval-color1{
+    background-color: #D0021B;
+}
+.oval-color2{
+    background-color: #F5A623;
+}
+.oval-color3{
+    background-color: #7ED321;
+}
+.training-status {
+    font-size: 13px;
+    float: right;
+    font-weight: 700;
+}
+.progress-bar {
+    height: 30px;
+    background-color: #2861c7
+}
+.section-color{
+    color: #1e49c1;
+    font-weight: 800;
+}
+.vertival-line {
+    border-left:1px solid #dbe6f8;
+    
+}
+.video-border {
+    border-left: 1px solid #b8cef1;
+    border-top: 1px solid #b8cef1;
+    border-bottom: 1px solid #b8cef1;
+    padding: 25px;
+}
+.video-para {
+    font-size: 16px;
+}
+.completed-badge .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content {
+    background-color: #a9d099;
+}
+.progress-badge{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: right;
+    margin-top: 4px;
+}
+.completed-color{
+    background-color: #7ED321;
+}
+.notstated-color{
+    background-color: #D0021B;
+}
+.progress-color{
+    background-color: #F5A623;
+}

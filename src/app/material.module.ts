@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
-import { MatBadgeModule, MatCardModule, 
+import { MatBadgeModule, MatCardModule, MatProgressBarModule
         } from '@angular/material';           
 
 @NgModule({
   imports: [
-            CommonModule, MatBadgeModule
+            CommonModule, MatBadgeModule, MatProgressBarModule
   ],
   exports: [ 
-             MatCardModule, MatBadgeModule
+             MatCardModule, MatBadgeModule, MatProgressBarModule
   ]
 })
 export class AppMaterialModule {};
