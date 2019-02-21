@@ -5,6 +5,7 @@ import { CalenderComponent } from './calender/calender.component';
 import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component'; 
+import { TrainingDetailComponent } from './training-detail/training-detail.component'; 
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'calender', component : CalenderComponent },
   { path: 'training', component : TrainingComponent },
   { path: 'mystory', component : MyStoryComponent },
-  { path: 'myprofile', component : MyProfileComponent }
+  { path: 'myprofile', component : MyProfileComponent },
+  { path: 'trainingdetail/:id', component : TrainingDetailComponent }
 ];
 
 @NgModule({

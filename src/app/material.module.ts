@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatSidenavModule, MatToolbarModule,
          MatCheckboxModule, MatFormFieldModule,
          MatInputModule, MatCardModule,
-         MatButtonModule, MatGridListModule, 
+         MatButtonModule, MatGridListModule, MatProgressBarModule
         } from '@angular/material';  
 import {MatBadgeModule} from '@angular/material/badge';         
 
@@ -17,12 +17,13 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatInputModule, 
     MatButtonModule ,
     MatGridListModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatProgressBarModule
   ],
   exports: [ MatSidenavModule, MatToolbarModule,
              MatCheckboxModule, MatFormFieldModule,
              MatInputModule, MatCardModule, MatButtonModule,
-             MatGridListModule, MatBadgeModule
+             MatGridListModule, MatBadgeModule, MatProgressBarModule
            ]
 })
 export class AppMaterialModule {};
