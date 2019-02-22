@@ -4,7 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component'; 
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { ExpensesComponent } from './expenses/expenses.component';
+//import { ExpensesComponent } from './expenses/expenses.component';
 import { MyProfileComponent } from './my-profile/my-profile.component'; 
 import { TrainingDetailComponent } from './training-detail/training-detail.component'; 
 
@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'training', component: TrainingComponent },
   { path: 'mystory', component: MyStoryComponent },
   { path: 'myprofile', component: MyProfileComponent },
-  { path: 'expenses', component: ExpensesComponent },
+ // { path: 'expenses', component: ExpensesComponent },
   { path: 'trainingdetail/:id', component : TrainingDetailComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
