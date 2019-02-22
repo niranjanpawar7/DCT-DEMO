@@ -6,6 +6,8 @@ import { calenderRoutingModule } from './routing-calender.module';
 import { CalenderComponent } from './calender.component';
 
 import { EventDetailComponent } from '../event-detail/event-detail.component';
+//import { ExpensesComponent } from '../expenses/expenses.component';
+ 
  
 
 @NgModule({
@@ -17,7 +19,8 @@ import { EventDetailComponent } from '../event-detail/event-detail.component';
     ],
   declarations: [
     CalenderComponent,
-    EventDetailComponent 
+    EventDetailComponent,
+    //ExpensesComponent, 
   ]
 })
 

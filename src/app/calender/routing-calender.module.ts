@@ -2,11 +2,18 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { CalenderComponent } from "./calender.component";
 import { EventDetailComponent } from "../event-detail/event-detail.component";
+//import { ExpensesComponent } from '../expenses/expenses.component';
+ 
 
 
 const routes: Routes = [
-    { path: "", component: CalenderComponent},
-    { path : "event/:id", component : EventDetailComponent}
+    { path: "", component: CalenderComponent },
+    { path : "event/:id", component : EventDetailComponent
+    // children: [
+    //     { path: 'expenses',  component: ExpensesComponent },
+    //   ]
+    },
+    // { path: "expenses:/id", component : ExpensesComponent }
 ];
 
 @NgModule({

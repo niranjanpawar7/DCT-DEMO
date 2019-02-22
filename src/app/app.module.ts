@@ -12,7 +12,14 @@ import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { TrainingDetailComponent } from './training-detail/training-detail.component';  
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';  
+import { ExpensesComponent } from './expenses/expenses.component';  
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material';
+import { MatInputModule } from '@angular/material';
+import { TrainingDetailComponent } from './training-detail/training-detail.component'
+import { from } from 'rxjs';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +30,8 @@ import { TrainingDetailComponent } from './training-detail/training-detail.compo
     MyProfileComponent,
     HeaderComponent,
     FooterComponent,
+    PageNotFoundComponent,
+    ExpensesComponent,
     TrainingDetailComponent
   ],
   imports: [
@@ -30,7 +39,11 @@ import { TrainingDetailComponent } from './training-detail/training-detail.compo
     AppRoutingModule,
     AppMaterialModule, 
     BrowserAnimationsModule,
-    AppBootstrapModule
+    AppBootstrapModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

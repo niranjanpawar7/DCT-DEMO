@@ -25,11 +25,25 @@ body{
 mat-card{
   float: left;
   width: 100%;
-}
-
+} 
 hr {
  float: left;
  width: 100%;
  margin-bottom: 15px;
  margin-top: 15px;
 }
+.mat-stepper-horizontal, .mat-stepper-vertical {
+  background-color: transparent;
+} 
+.mat-horizontal-stepper-header-container {
+   background: white;
+}
+.mat-horizontal-stepper-header-container { 
+  width: 600px; 
+}
+.mat-horizontal-content-container{
+  padding: 0px !important; 
+}
+.mat-form-field-infix{
+  width: 100% !important; 
+} 
