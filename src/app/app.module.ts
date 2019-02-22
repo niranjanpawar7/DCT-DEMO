@@ -11,7 +11,13 @@ import { TrainingComponent } from './training/training.component';
 import { MyStoryComponent } from './my-story/my-story.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';  
+import { FooterComponent } from './footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';  
+import { ExpensesComponent } from './expenses/expenses.component';  
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material';
+import { MatInputModule } from '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -21,14 +27,20 @@ import { FooterComponent } from './footer/footer.component';
     MyStoryComponent,
     MyProfileComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent,
+    ExpensesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AppMaterialModule, 
     BrowserAnimationsModule,
-    AppBootstrapModule
+    AppBootstrapModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
