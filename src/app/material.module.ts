@@ -4,15 +4,15 @@ import {
   MatBadgeModule, MatCardModule,
   MatStepperModule, MatTableModule,
   MatInputModule, MatSelectModule,
-  MatButtonModule
+  MatButtonModule, MatProgressBarModule
 } from '@angular/material';
 
 @NgModule({
   imports: [
-    CommonModule, MatBadgeModule, MatStepperModule, MatTableModule , MatInputModule, MatSelectModule, MatButtonModule
+    CommonModule, MatBadgeModule, MatStepperModule, MatTableModule , MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule
   ],
   exports: [
-    MatCardModule, MatBadgeModule, MatStepperModule, MatTableModule, MatInputModule, MatSelectModule, MatButtonModule
+    MatCardModule, MatBadgeModule, MatStepperModule, MatTableModule, MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule
   ]
 })
 export class AppMaterialModule { };

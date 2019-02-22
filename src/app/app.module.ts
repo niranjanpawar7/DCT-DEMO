@@ -17,6 +17,8 @@ import { ExpensesComponent } from './expenses/expenses.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
+import { TrainingDetailComponent } from './training-detail/training-detail.component'
+import { from } from 'rxjs';
 
 
 @NgModule({
@@ -29,7 +31,8 @@ import { MatInputModule } from '@angular/material';
     HeaderComponent,
     FooterComponent,
     PageNotFoundComponent,
-    ExpensesComponent
+    ExpensesComponent,
+    TrainingDetailComponent
   ],
   imports: [
     BrowserModule,
