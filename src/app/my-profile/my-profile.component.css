@@ -82,3 +82,6 @@
     transform: rotateY(180deg);
     background-color: #285fb1;
 }
+.nopadding{
+    padding: 0px;
+}

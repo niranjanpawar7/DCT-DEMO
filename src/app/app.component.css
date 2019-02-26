@@ -56,10 +56,15 @@
   margin: auto;
   padding: 10px 0px;
   }
+  .main-container{
+     background:#eff3f9; padding-left: 60px; padding-right: 60px;
+  }
   
   @media only screen and (max-width: 800px) {
     .aniket {
-      position: relative;
-      
+      position: relative; 
     }
+    .main-container{
+      padding-left: 15px; padding-right: 15px;
+     } 
   }
