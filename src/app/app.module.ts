@@ -42,7 +42,7 @@ import { TrainingDetailComponent } from './training-detail/training-detail.compo
     FormsModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
