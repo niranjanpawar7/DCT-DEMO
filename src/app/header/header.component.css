@@ -28,3 +28,12 @@
     background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%);
     color: #fff;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .header-section  { 
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+}

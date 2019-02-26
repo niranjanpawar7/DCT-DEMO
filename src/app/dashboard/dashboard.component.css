@@ -73,11 +73,31 @@ mat-card{
     float: left;
     margin-top: 6px;
 }
+.pd-t-63{
+    padding-top: 63px;
+}
 
 
 
 @media only screen and (max-width: 800px) {
-    .mat-card{
+    .Events-panel .mat-card{
         margin-bottom: 25px !important;
     } 
+    .Events-panel mat-card-content .right-content{
+        padding-left: 16px; 
+    }
+    .pd-t-63{
+        padding-top: 0px;
+    }
+    .col-md-12.pd-t-63 .col-md-6:first-child{
+        margin-top: 0px;
+        float: left;
+    }
+    .col-md-12.pd-t-63 .col-md-6{
+        margin-top: 15px;
+        float: left;
+    }
+    
+    
+    
   }
