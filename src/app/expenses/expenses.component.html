@@ -56,7 +56,7 @@
 
         <ng-container matColumnDef="footer-row-first-group">
           <th colspan="2" style="padding:15px 24px; text-align: left" mat-footer-cell *matFooterCellDef>
-            <button type="button" class="btn btn-plain-blue">ADD NEW EXPENSE</button>
+            <button type="button" (click)="toggle()" id="btToggle"  class="btn btn-plain-blue">ADD NEW EXPENSE</button>
           </th>
         </ng-container>
 
@@ -73,7 +73,7 @@
         <tr mat-footer-row *matFooterRowDef="['footer-row-first-group', 'footer-row-second-group']"></tr>
       </table>
 
-      <div class="col-md-12 nopadding">
+      <div class="col-md-12 nopadding" *ngIf="show_dialog">
         <p class="margin-top-25">New Form</p>
         <mat-card>
           <div class="col-md-6">

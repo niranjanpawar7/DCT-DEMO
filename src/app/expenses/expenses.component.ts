@@ -21,6 +21,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./expenses.component.css']
 })
 export class ExpensesComponent implements OnInit {
+  public show_dialog : boolean = false;
+  public button_name : any = 'Show Login Form!';
 
   displayedColumns: string[] = ['PURPOSE', 'DATE', 'AMOUNT', 'DETAIL'];
   dataSource = ELEMENT_DATA;
@@ -44,5 +46,15 @@ export class ExpensesComponent implements OnInit {
     this.secondFormGroup = this._formBuilder.group({
       secondCtrl: ['', Validators.required]
     });
+  }
+
+  toggle() {
+    this.show_dialog = !this.show_dialog;
+
+    // CHANGE THE TEXT OF THE BUTTON.
+    if(this.show_dialog) 
+      this.button_name = "Hide Login Form!";
+    else
+      this.button_name = "Show Login Form!";
   }
 }
