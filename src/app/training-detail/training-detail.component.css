@@ -1,11 +1,11 @@
 .training-floating {
     float: right;
     font-size: 11px;
-    margin-left:42%;
+    margin-left:50%;
     padding-top: 10px;
 }
 .hr-align{
-    margin-top: 0px;
+    margin-top: 5px;
     border-top: 1px solid #b8cef1;
 }
 .oval{
@@ -51,7 +51,10 @@
     font-size: 16px;
 }
 .completed-badge .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content {
-    background-color: #a9d099;
+    background-color: #a9d099; 
+}
+.completed-badge{
+    padding-top:20px;
 }
 .progress-badge{
     height: 10px;
@@ -70,3 +73,79 @@
 .progress-color{
     background-color: #F5A623;
 }
+@media (min-width: 220px) and (max-width: 315px) {
+    .training-status {
+        float: none;
+        padding-left: 16px;
+        position: absolute;
+    }
+    .progress-badge{
+        
+        float: left;
+        margin-top: 3px;
+    }
+    .training-floating {
+        float: left;
+        margin-left: -2%;
+        padding-top: 21px;
+    }
+    .completed-badge{
+        padding-top: 53px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .video-border {
+        border:none;
+        padding: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .training-status {
+        float: none;
+        padding-left: 16px;
+        position: absolute;
+    }
+    .progress-badge{
+        
+        float: left;
+        margin-top: 3px;
+    }
+    .training-floating {
+        float: left;
+        margin-left: -2%;
+        padding-top: 21px;
+    }
+    .completed-badge{
+        padding-top: 53px;
+    }
+    .video-border {
+        border:none;
+        padding: 0px;
+    }
+  }
+  
+  @media (min-width: 500px) and (max-width: 800px)  {
+    .training-status {
+        float: none;
+        padding-left: 16px;
+        position: absolute;
+    }
+    .progress-badge{
+        
+        float: left;
+        margin-top: 3px;
+    }
+    .training-floating {
+        float: left;
+        margin-left: -2%;
+        padding-top: 21px;
+    }
+    .completed-badge{
+        padding-top: 53px;
+    }
+    .video-border {
+        border:none;
+        padding: 0px;
+    }
+  }
