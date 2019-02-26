@@ -5,7 +5,7 @@ import { CalenderMaterialModule } from './calender-material.module';
 import { calenderRoutingModule } from './routing-calender.module';  
 import { CalenderComponent } from './calender.component';
 
-import { EventDetailComponent } from '../event-detail/event-detail.component';
+//import { EventDetailComponent } from '../event-detail/event-detail.component';
 //import { ExpensesComponent } from '../expenses/expenses.component';
  
  
@@ -18,8 +18,7 @@ import { EventDetailComponent } from '../event-detail/event-detail.component';
       CalenderMaterialModule 
     ],
   declarations: [
-    CalenderComponent,
-    EventDetailComponent,
+    CalenderComponent
     //ExpensesComponent, 
   ]
 })
