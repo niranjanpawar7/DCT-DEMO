@@ -8,6 +8,11 @@
     box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
     margin-bottom: 15px;
 } 
+.status-media{
+    padding-left: 0px;
+    /* margin-left: -13px; */
+    margin-top: 14px;
+}
 .training-heading {
     color: #2B62CA;
     font-weight: bold;
@@ -46,3 +51,62 @@ a:hover {
     float: left;
     margin-top: 4px;
 }
+.common {
+    padding-top:20px; padding-bottom: 100px;
+}
+.nopadding{
+    padding: 0px;
+}
+@media (min-width: 220px) and (max-width: 315px) {
+    .training-floating {
+        float: left;
+        padding-left: 0px;
+    }
+    .status-media{
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .vertival-line {
+        border-left:0px solid #dbe6f8;
+        border-right:0px solid #dbe6f8;
+    }
+    .nopadding{
+        padding: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .training-floating {
+        float: left;
+        padding-left: 0px;
+    }
+    .status-media{
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .vertival-line {
+        border-left:0px solid #dbe6f8;
+        border-right:0px solid #dbe6f8;
+    }
+    .training-section1 mat-card {
+        padding: 11px;
+    }
+    .nopadding{
+        padding: 0px;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 1024px) {
+  
+    .status-media{
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .training-floating {
+        float: left;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .nopadding{
+        padding: 0px;
+    }
+  }
