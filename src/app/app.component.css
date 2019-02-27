@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-  .nopadding.aniket{
+  .nopadding.sticky-container{
     height: 100%;
     background: #2B62CA;
   }
   
-  .aniket {
+  .sticky-container {
     position: fixed;
     height: 100%;
     background: #2B62CA;
@@ -61,7 +61,7 @@
   }
   .router-link-active { background-color: #c4519e !important; }
   @media only screen and (max-width: 800px) {
-    .aniket {
+    .sticky-container {
       position: relative; 
     }
     .main-container{

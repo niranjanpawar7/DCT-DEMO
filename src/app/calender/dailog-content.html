@@ -1,15 +1,29 @@
 <mat-dialog-content>
-<div class="col-md-12 dailog-wrapper">
-  <p>
-    Select the dates you will be unavailable
-  </p>
-  <hr>
-  <div class="col-md-6" style="border-right:1px solid #cecece">
-    <p>Manually Select on Calendar</p>  
-        <app-view-calender></app-view-calender>   
-  </div>
-  <div class="col-md-6">
-    <p>Select Reoccuring Days</p>
+  <div class="row">
+    <div class="col-md-12 dailog-wrapper">
+      <p>
+        Select the dates you will be unavailable
+      </p>
+      <hr>
+
+      <div class="row">
+        <div class="col-md-6 border-wrap">
+          <p>Manually Select on Calendar</p>
+          <div class="col-md-6">
+            <app-view-calender></app-view-calender>
+          </div>
+
+          <div class="col-md-6">
+            <app-view-calender></app-view-calender>
+          </div>
+          <p>WEDNESDAY JAN. 9 NOTES</p>
+          <p>I have
+            OCT a personal event planned and I won’t be able to make
+            any events that</p>
+        </div> <!-- Partion calender -->
+
+        <div class="col-md-6">
+          <p>Select Reoccuring Days</p>
     <mat-radio-group>
       <mat-radio-button value="1">Every</mat-radio-button>
       
@@ -35,6 +49,9 @@
         <option value="audi">Audi</option>
       </select>
     </mat-form-field>
+    <hr>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </mat-dialog-content>
