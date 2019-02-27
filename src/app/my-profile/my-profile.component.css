@@ -1,6 +1,9 @@
 .my-profile-heading{
     color: #1D232F;
 }
+.my-profile-top{
+    padding-top:20px;
+}
 .my-profile-sub-heading{
     color: #a4a6b9;
 }
@@ -84,6 +87,10 @@
 }
 .nopadding{
     padding: 0px;
+}
+.img-radius{
+    border-radius: 9px 9px 1px 1px;
+    width: 100%
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .align-div-padding{
