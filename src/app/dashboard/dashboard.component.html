@@ -2,7 +2,7 @@
 <br>
 <div class="col-md-12 nopadding Events-panel">
   <div class="col-md-12">
-    <p>My UpComing Events</p>
+    <p class="my-event-title">MY UPCOMING EVENTS</p>
   </div>
   <div class="col-md-4">
     <mat-card routerLink="/calender">
@@ -22,10 +22,10 @@
         </div>
 
         <div class="col-md-12 icon-panel">
-          <span><img src="assets/icons/add.svg"></span>
-          <span><img src="assets/icons/map.svg"></span>
-          <span><img src="assets/icons/details.svg"></span>
-          <span><img src="assets/icons/check-mark.png" width="20"></span>
+          <span><img src="assets/icons/add.svg" class="icon-panel-align-add"></span>
+          <span><img src="assets/icons/map.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/details.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/check-mark.png"  class="icon-panel-align"></span>
         </div>
       </mat-card-content>
     </mat-card>
@@ -48,10 +48,10 @@
         </div>
 
         <div class="col-md-12 icon-panel">
-          <span><img src="assets/icons/add.svg"></span>
-          <span><img src="assets/icons/map.svg"></span>
-          <span><img src="assets/icons/details.svg"></span>
-          <span><img src="assets/icons/check-mark.png" width="20"></span>
+          <span><img src="assets/icons/add.svg" class="icon-panel-align-add"></span>
+          <span><img src="assets/icons/map.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/details.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/check-mark.png" class="icon-panel-align"></span>
         </div>
       </mat-card-content>
     </mat-card>
@@ -74,10 +74,10 @@
         </div>
 
         <div class="col-md-12 icon-panel">
-          <span><img src="assets/icons/add.svg"></span>
-          <span><img src="assets/icons/map.svg"></span>
-          <span><img src="assets/icons/details.svg"></span>
-          <span><img src="assets/icons/check-mark.png" width="20"></span>
+          <span><img src="assets/icons/add.svg" class="icon-panel-align-add"></span>
+          <span><img src="assets/icons/map.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/details.svg" class="icon-panel-align"></span>
+          <span><img src="assets/icons/check-mark.png" class="icon-panel-align"></span>
         </div>
       </mat-card-content>
     </mat-card>
@@ -89,23 +89,23 @@
 
 <div class="col-md-12 nopadding pd-t-63">
   <div class="col-md-6">
-    <p>News & Update</p>
-    <div class="news-wrap">
-      <mat-card>
+    <p>NEWS & UPDATE</p>
+    <div class="news-wrap news-wrap-margin">
+      <mat-card class="news-wrap-padding">
         <span>Oct 12</span>
         <p>
           Attention all Patient Ambassadors please submit
           all of your outstanding expense by the end of the quater.
         </p>
       </mat-card>
-      <mat-card>
+      <mat-card class="news-wrap-padding">
         <span>Oct 12</span>
         <p>
           Attention all Patient Ambassadors please submit
           all of your outstanding expense by the end of the quater.
         </p>
       </mat-card>
-      <mat-card>
+      <mat-card class="news-wrap-padding">
         <span>Oct 12</span>
         <p>
           Attention all Patient Ambassadors please submit
@@ -115,9 +115,26 @@
     </div>
   </div>
   <div class="col-md-6">
-    <p>My Training</p>
+    <p>MY TRAINING</p>
     <div class="training-wrap">
-      <mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
+        <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
+          Coping with My Cancer 
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 text-right nopadding">
+          <span>Due Date: Oct 12</span>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
+          <span class="progress-badge"></span><span>In Progress</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 nopadding text-right">
+          <span> Sections: 2</span>
+        </div>
+      </mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
         <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
           Coping with My Cancer
         </div>
@@ -134,7 +151,7 @@
           <span> Sections: 2</span>
         </div>
       </mat-card>
-      <mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
         <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
           Coping with My Cancer
         </div>
@@ -151,7 +168,7 @@
           <span> Sections: 2</span>
         </div>
       </mat-card>
-      <mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
         <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
           Coping with My Cancer
         </div>
@@ -168,7 +185,7 @@
           <span> Sections: 2</span>
         </div>
       </mat-card>
-      <mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
         <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
           Coping with My Cancer
         </div>
@@ -185,24 +202,7 @@
           <span> Sections: 2</span>
         </div>
       </mat-card>
-      <mat-card>
-        <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
-          Coping with My Cancer
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-6 text-right nopadding">
-          <span>Due Date: Oct 12</span>
-        </div>
-
-        <div class="clearfix"></div>
-
-        <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
-          <span class="progress-badge"></span><span>In Progress</span>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-6 nopadding text-right">
-          <span> Sections: 2</span>
-        </div>
-      </mat-card>
-      <mat-card>
+      <mat-card routerLink='/trainingdetail/1'>
         <div class="col-md-6 col-sm-6 col-xs-6 nopadding">
           Coping with My Cancer
         </div>

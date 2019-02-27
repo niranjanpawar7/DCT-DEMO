@@ -6,13 +6,13 @@
     background-color: white;
     border: 1px solid #2B62CA;
     padding: 5px 7px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     color: #2B62CA;
     font-family: Lato;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 19px;
-    width: 286px;
+    width: 300px;
     float: right;
     margin-right: 25px;
     margin-top: 20px;

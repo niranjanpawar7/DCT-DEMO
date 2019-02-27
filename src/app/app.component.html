@@ -18,8 +18,8 @@
         <div class="navbar-collapse sidebar-navbar-collapse" *ngIf="!show_dialog" style="padding:0px">
           <ul class="nav navbar-nav" style="padding:0px; width:100%">
 
-            <li routerLink='/dashboard'>
-              <a>
+            <li>
+              <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                   <img src="assets/icons/dashboard.svg" class="img-responsive" />
                    DASHBOARD
@@ -27,8 +27,8 @@
               </a>
             </li>
 
-            <li routerLink='/calender'>
-              <a>
+            <li>
+              <a [routerLink]="['/calender']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                     <img src="assets/icons/calendar.svg" class="img-responsive" />
                     CALENDER
@@ -36,8 +36,8 @@
               </a>
             </li>
 
-            <li routerLink='/training'>
-              <a>
+            <li>
+              <a [routerLink]="['/training']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                     <img src="assets/icons/training.svg" class="img-responsive" />
                      TRAINING 
@@ -45,8 +45,8 @@
               </a>
             </li>
 
-            <li routerLink='/mystory'>
-              <a>
+            <li>
+              <a [routerLink]="['/mystory']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                     <img src="assets/icons/slides.svg" class="img-responsive" />
                   MY STORY
@@ -54,8 +54,8 @@
               </a>
             </li>
 
-            <li routerLink='/myprofile'>
-              <a>
+            <li>
+              <a [routerLink]="['/myprofile']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                     <img src="assets/icons/profile.svg" class="img-responsive" />
                   MY PROFILE
