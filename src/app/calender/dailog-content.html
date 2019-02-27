@@ -5,20 +5,8 @@
   </p>
   <hr>
   <div class="col-md-6" style="border-right:1px solid #cecece">
-    <p>Manually Select on Calendar</p>
-
-    <mat-form-field>
-      <input matInput [matDatepicker]="picker" placeholder="Choose a date">
-      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-      <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field>
-
-    <mat-form-field>
-      <input matInput [matDatepicker]="picker1" placeholder="Choose a date">
-      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
-      <mat-datepicker #picker1></mat-datepicker>
-    </mat-form-field>
-
+    <p>Manually Select on Calendar</p>  
+        <app-view-calender></app-view-calender>   
   </div>
   <div class="col-md-6">
     <p>Select Reoccuring Days</p>

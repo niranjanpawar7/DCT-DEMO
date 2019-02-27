@@ -47,3 +47,12 @@ hr {
 .mat-form-field-infix{
   width: 100% !important; 
 } 
+
+.dailog-wrapper .fc-toolbar .fc-right,
+.dailog-wrapper .btn.btn-default,
+.dailog-wrapper .fc-state-disabled {
+  display: none;
+}
+.dailog-wrapper .fc button, .fc table, body .fc {
+  font-size: 11px;
+}
