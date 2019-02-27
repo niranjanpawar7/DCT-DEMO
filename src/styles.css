@@ -47,3 +47,36 @@ hr {
 .mat-form-field-infix{
   width: 100% !important; 
 } 
+
+.dailog-wrapper .fc-toolbar .fc-right,
+.dailog-wrapper .btn.btn-default,
+.dailog-wrapper .fc-state-disabled {
+  display: none;
+}
+.dailog-wrapper .fc button, .fc table, body .fc {
+  font-size: 11px;
+}
+.dailog-wrapper .fc .fc-toolbar>*>:first-child {
+  margin-left: 0;
+  font-size: 16px; 
+  font-weight: bold;
+}
+.dailog-wrapper .border-wrap{
+  border-right: 1px solid #cecece;  
+}
+.dailog-wrapper .border-wrap p{
+  margin-left: 18px;
+}
+.dailog-wrapper .border-wrap p:last-child{
+  border-bottom: 1px solid #cecece;
+}
+ 
+
+.dailog-wrapper .mat-dialog-content { 
+  margin: 0 -24px;
+  padding: 0 24px;
+  max-height: auto;
+  height: auto;
+  overflow: none;
+   
+}
