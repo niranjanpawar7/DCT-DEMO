@@ -4,15 +4,16 @@ import {
   MatBadgeModule, MatCardModule,
   MatStepperModule, MatTableModule,
   MatInputModule, MatSelectModule,
-  MatButtonModule, MatProgressBarModule
+  MatButtonModule, MatProgressBarModule,
+  MatNativeDateModule
 } from '@angular/material';
 
 @NgModule({
   imports: [
-    CommonModule, MatBadgeModule, MatStepperModule, MatTableModule , MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule
+    CommonModule, MatBadgeModule, MatStepperModule, MatTableModule , MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule, MatNativeDateModule
   ],
   exports: [
-    MatCardModule, MatBadgeModule, MatStepperModule, MatTableModule, MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule
+    MatCardModule, MatBadgeModule, MatStepperModule, MatTableModule, MatProgressBarModule,  MatInputModule, MatSelectModule, MatButtonModule, MatNativeDateModule
   ]
 })
 export class AppMaterialModule { };

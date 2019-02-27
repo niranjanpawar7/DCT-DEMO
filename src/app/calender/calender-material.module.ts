@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
-import {MatTabsModule, MatCardModule} from '@angular/material';
+import {  MatTabsModule, MatCardModule, MatDialogModule,
+          MatDatepickerModule, MatFormFieldModule, MatInputModule,
+          MatRadioModule, MatSelectModule } from '@angular/material';
+  
   
  
 
@@ -8,12 +11,19 @@ import {MatTabsModule, MatCardModule} from '@angular/material';
   imports: [
     CommonModule,
     MatTabsModule,
-    MatCardModule
-   
+    MatCardModule,
+    MatDialogModule,
+    MatDatepickerModule,
+    MatFormFieldModule, MatInputModule,
+    MatRadioModule,MatSelectModule
   ],
   exports: [  
     MatTabsModule,
-    MatCardModule
-  ]
+    MatCardModule,
+    MatDialogModule,
+    MatDatepickerModule,
+    MatFormFieldModule, MatInputModule,
+    MatRadioModule, MatSelectModule
+  ],
 })
 export class CalenderMaterialModule {};
