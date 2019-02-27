@@ -1,57 +1,116 @@
 <mat-dialog-content>
-  <div class="row">
-    <div class="col-md-12 dailog-wrapper">
-      <p>
-        Select the dates you will be unavailable
-      </p>
-      <hr>
 
-      <div class="row">
-        <div class="col-md-6 border-wrap">
-          <p>Manually Select on Calendar</p>
-          <div class="col-md-6">
-            <app-view-calender></app-view-calender>
-          </div>
+  <div class="col-md-12 dailog-wrapper">
+    <p>
+      Select the dates you will be unavailable
+    </p>
+    <hr class="custom-hr">
 
-          <div class="col-md-6">
-            <app-view-calender></app-view-calender>
-          </div>
-          <p>WEDNESDAY JAN. 9 NOTES</p>
-          <p>I have
-            OCT a personal event planned and I won’t be able to make
-            any events that</p>
-        </div> <!-- Partion calender -->
+    <div class="row">
+      <div class="col-md-7 border-wrap">
+        <p>Manually Select on Calendar</p>
+        <div class="col-md-6">
+          <app-view-calender></app-view-calender>
+        </div>
 
         <div class="col-md-6">
-          <p>Select Reoccuring Days</p>
-    <mat-radio-group>
-      <mat-radio-button value="1">Every</mat-radio-button>
-      
-    </mat-radio-group>
-    <mat-form-field>
-      <select matNativeControl required>
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-      </select>
-    </mat-form-field><br>
-    <hr>
-    <mat-radio-group>
-      <mat-radio-button value="1">Every</mat-radio-button>
-      
-    </mat-radio-group>
-    <mat-form-field>
-      <select matNativeControl required>
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-      </select>
-    </mat-form-field>
-    <hr>
+          <app-view-calender></app-view-calender>
+        </div>
+        <div class="clearfix"></div>
+
+        <p class="mrtp">WEDNESDAY JAN. 9 NOTES</p>
+        <p>I have
+          OCT a personal event planned and I won’t be able to make<br>
+          any events that</p>
+      </div> <!-- Partion calender -->
+
+      <div class="col-md-5 dailog-form-wrap">
+        <p>Select Reoccuring Days</p>
+        <div class="row">
+          <div class="col-md-12 nopadding">
+            <div class="col-md-3 mtp-15">
+              <mat-radio-group>
+                <mat-radio-button value="1">Every</mat-radio-button>
+              </mat-radio-group>
+            </div>
+            <div class="col-md-9">
+              <mat-form-field>
+                <mat-select placeholder="Favorite food">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="col-md-12 nopadding">
+            <div class="col-md-3 mtp-15">
+              <mat-radio-group>
+                <mat-radio-button value="1">The</mat-radio-button>
+              </mat-radio-group>
+            </div>
+            <div class="col-md-4">
+              <mat-form-field>
+                <mat-select placeholder="Favorite food">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-md-2 mrtp">
+              Of
+            </div>
+            <div class="col-md-3">
+              <mat-form-field>
+                <mat-select placeholder="Favorite food">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="col-md-12 nopadding">
+            <div class="col-md-3 mtp-15">
+              <mat-radio-group>
+                <mat-radio-button value="1">The</mat-radio-button>
+              </mat-radio-group>
+            </div>
+            <div class="col-md-9">
+              <mat-form-field>
+                <mat-select placeholder="Favorite food">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <hr>
+
+          <div class="clearfix"></div>
+          <div class="col-md-12">
+            <p></p>
+            <p>Notes</p>
+            <p>I have
+              OCT a personal event planned and I won’t be able to make
+              any events that</p>
+          </div>
+
         </div>
       </div>
+      <div class="col-md-12 text-center btn-wrap">
+        <button class="btn">Cancle</button>
+        <button class="btn btn-primary">Save</button>
+      </div>
+
     </div>
   </div>
 </mat-dialog-content>
