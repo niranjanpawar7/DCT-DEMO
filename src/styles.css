@@ -61,22 +61,53 @@ hr {
   font-size: 16px; 
   font-weight: bold;
 }
+.border-wrap,
+.dailog-form-wrap{
+  height: 350px;
+}
 .dailog-wrapper .border-wrap{
   border-right: 1px solid #cecece;  
+  border-bottom: 1px solid #cecece; 
 }
 .dailog-wrapper .border-wrap p{
   margin-left: 18px;
 }
-.dailog-wrapper .border-wrap p:last-child{
+/* .dailog-wrapper .border-wrap p:last-child{
   border-bottom: 1px solid #cecece;
-}
- 
-
+}  */
 .dailog-wrapper .mat-dialog-content { 
   margin: 0 -24px;
   padding: 0 24px;
-  max-height: auto;
+  max-height: none !important;
   height: auto;
-  overflow: none;
-   
+  overflow: none; 
+}
+.mtp-15{
+  margin-top: 15px;
+} 
+.nopadding{
+  padding: 0px;
+}
+.dailog-form-wrap{
+  border-bottom: 1px solid #cecece;
+}
+.dailog-form-wrap hr{
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.dailog-wrapper .custom-hr{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.mrtp{
+  margin-top: 20px;
+}
+.dailog-wrapper .btn-wrap{
+  margin-top: 10px;
+}
+.dailog-wrapper .btn-wrap .btn.btn-primary{
+  margin-left: 15px;
+}
+.fc-view, .fc-view>table { 
+  background: #fff;
 }

@@ -27,4 +27,9 @@ export class CalenderComponent implements OnInit {
   selector: 'dialog-content-example-dialog',
   templateUrl: './dailog-content.html',
 })
-export class DialogContentExampleDialog { }
+export class DialogContentExampleDialog { 
+  foods : {
+    name: 'orange',
+    color : 'grey'
+  }
+}
