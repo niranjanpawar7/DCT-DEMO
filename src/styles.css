@@ -124,3 +124,6 @@ right: 15px;
   z-index: 99;
   left: 15px;
 }
+.fc-right{
+  display: none;
+}
