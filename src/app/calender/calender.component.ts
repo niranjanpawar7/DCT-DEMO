@@ -23,6 +23,8 @@ export class CalenderComponent implements OnInit {
   }
 
 }
+
+
 @Component({
   selector: 'dialog-content-example-dialog',
   templateUrl: './dailog-content.html',
