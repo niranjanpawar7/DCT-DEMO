@@ -2,7 +2,7 @@
     {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
   </button> -->
 
-<div class="col-md-12 Expesnes-wrapper" style="margin-bottom:50px; margin-top: 50px">
+<div class="col-md-12 expesnes-wrapper">
   <p>
     Progress
   </p>
@@ -12,7 +12,7 @@
       <ng-template matStepLabel>Inputting Expenses</ng-template>
 
       <p class="margin-top-25">Expense Report</p>
-      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="width:100%">
+      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 mat-table-wd">
 
         <!--- Note that these columns can be defined in any order.
                 The actual rendered columns are set as a property on the row definition" -->
@@ -38,13 +38,13 @@
         <!-- Symbol Column -->
         <ng-container matColumnDef="DETAIL">
           <th mat-header-cell *matHeaderCellDef> </th>
-          <td style="text-align:right" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
+          <td class="mat-detail-td" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
         </ng-container>
 
 
         <!-- Custom Header || Footer Start -->
         <ng-container matColumnDef="header-row-first-group">
-          <th style="font-size:14px; color:#333" mat-header-cell *matHeaderCellDef [style.text-align]="center"
+          <th class="mat-table-top" mat-header-cell *matHeaderCellDef [style.text-align]="center"
             [attr.colspan]="2">
             Understanding the Complexity of Living with Cancer Expense Report
           </th>
@@ -55,13 +55,13 @@
         </ng-container>
 
         <ng-container matColumnDef="footer-row-first-group">
-          <th colspan="2" style="padding:15px 24px; text-align: left" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-left" mat-footer-cell *matFooterCellDef>
             <button type="button" (click)="toggle()" id="btToggle"  class="btn btn-plain-blue">ADD NEW EXPENSE</button>
           </th>
         </ng-container>
 
         <ng-container matColumnDef="footer-row-second-group">
-          <th colspan="2" style="padding:15px; text-align: right" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-right" mat-footer-cell *matFooterCellDef>
             <button type="button" class="btn btn-plain">SUBMIT EXPENSE REPORT</button>
           </th>
         </ng-container>
@@ -118,12 +118,12 @@
             </mat-form-field>
           </div>
           <div class="col-md-12">
-              <p style="color: rgba(0,0,0,.54); font-size:12px;  ">RECEIPTS</p>
+              <p class="upload-receipt">RECEIPTS</p>
               <button class="btn btn-plain-upload" type="button">Upload Recipt</button>
           </div>
           <div class="col-md-12 text-right">
               <hr>
-              <button mat-button style="margin-right:10px">Click Me</button>
+              <button mat-button class="click-me">Click Me</button>
               <button _ngcontent-c3="" class="btn btn-plain-blue" type="button">ADD TO EXPENSE REPORT</button>
           </div>
           
@@ -161,13 +161,13 @@
         <!-- Symbol Column -->
         <ng-container matColumnDef="DETAIL">
           <th mat-header-cell *matHeaderCellDef> </th>
-          <td style="text-align:right" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
+          <td class="mat-detail-td" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
         </ng-container>
 
 
         <!-- Custom Header || Footer Start -->
         <ng-container matColumnDef="header-row-first-group">
-          <th style="font-size:14px; color:#333" mat-header-cell *matHeaderCellDef [style.text-align]="center"
+          <th class="mat-table-top" mat-header-cell *matHeaderCellDef [style.text-align]="center"
             [attr.colspan]="2">
             Understanding the Complexity of Living with Cancer Expense Report
           </th>
@@ -178,13 +178,13 @@
         </ng-container>
 
         <ng-container matColumnDef="footer-row-first-group">
-          <th colspan="2" style="padding:15px 24px; text-align: left" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-left" mat-footer-cell *matFooterCellDef>
             <!-- <button type="button" (click)="toggle()" id="btToggle"  class="btn btn-plain-blue">ADD NEW EXPENSE</button> -->
           </th>
         </ng-container>
 
         <ng-container matColumnDef="footer-row-second-group">
-          <th colspan="2" style="padding:15px; text-align: right" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-right" mat-footer-cell *matFooterCellDef>
             <p style="color: #F5A623">EXPENSE REPORT PROCESSING</p>
           </th>
         </ng-container>
@@ -226,13 +226,13 @@
         <!-- Symbol Column -->
         <ng-container matColumnDef="DETAIL">
           <th mat-header-cell *matHeaderCellDef> </th>
-          <td style="text-align:right" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
+          <td class="mat-detail-td" mat-cell *matCellDef="let element"> {{element.DETAIL}} </td>
         </ng-container>
 
 
         <!-- Custom Header || Footer Start -->
         <ng-container matColumnDef="header-row-first-group">
-          <th style="font-size:14px; color:#333" mat-header-cell *matHeaderCellDef [style.text-align]="center"
+          <th class="mat-table-top" mat-header-cell *matHeaderCellDef [style.text-align]="center"
             [attr.colspan]="2">
             Understanding the Complexity of Living with Cancer Expense Report
           </th>
@@ -243,13 +243,13 @@
         </ng-container>
 
         <ng-container matColumnDef="footer-row-first-group">
-          <th colspan="2" style="padding:15px 24px; text-align: left" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-left" mat-footer-cell *matFooterCellDef>
             <!-- <button type="button" (click)="toggle()" id="btToggle"  class="btn btn-plain-blue">ADD NEW EXPENSE</button> -->
           </th>
         </ng-container>
 
         <ng-container matColumnDef="footer-row-second-group">
-          <th colspan="2" style="padding:15px; text-align: right" mat-footer-cell *matFooterCellDef>
+          <th colspan="2" class="mat-cl-right" mat-footer-cell *matFooterCellDef>
             <p style="color: #7ED321">EXPENSES PAID</p>
           </th>
         </ng-container>

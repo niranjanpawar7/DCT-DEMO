@@ -37,3 +37,28 @@
 .example-full-width {
     width: 100%;
 }
+.expesnes-wrapper{
+    margin-bottom:50px; margin-top: 50px;
+}
+.mat-table-wd{
+    width:100%;
+}
+.mat-detail-td{
+    text-align:right;
+}
+.mat-table-top{
+    font-size:14px; color:#333;
+}
+.mat-cl-left{
+    padding:15px 24px; text-align: left; 
+}
+.mat-cl-right{
+    padding:15px; text-align: right;
+}
+.upload-receipt{
+    color: rgba(0,0,0,.54); font-size:12px;
+}
+.click-me{
+    margin-right:10px;
+}
+

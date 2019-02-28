@@ -4,6 +4,7 @@
     float: left;
     width: 100%;
     padding: 0px;
+    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
     /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
 }
 .Events-panel mat-card-content{
@@ -15,10 +16,10 @@
     width: 100%;
 }
 .Events-panel mat-card-content .left-content{
-    color: #1D232F;		font-size: 40px;	line-height: 35px;
+    color: #1D232F;		font-size: 48px;	line-height: 35px;
 }
 .Events-panel mat-card-content .right-content{
-    color: #2B62CA;		font-size: 14px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
+    color: #2B62CA;		font-size: 17px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
 }
 .Events-panel mat-card-content .upper-text{
     color: #1D232F;		font-size: 14px;	line-height: 19px;	text-align: right;
@@ -27,8 +28,18 @@
     color: #1D232F;	padding-bottom: 18px;	font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 20px; 
 }
 .Events-panel mat-card-content .icon-panel span{
-    margin-right: 15px;
+    margin-right: 30px;
     
+}
+.icon-panel-align{
+    height: 26px;	width: 30px; 
+}
+.icon-panel-align-add{
+    height: 26px;	width: 23px; 
+}
+.my-event-title{
+    font-size: 17px;
+    font-weight: 500;
 }
 mat-card{
     cursor: pointer;
@@ -41,6 +52,8 @@ mat-card{
     font-size: 14px;	
     font-weight: 500;	
     line-height: 20px;
+    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
+    margin-right: 30px;
 } 
 .news-wrap mat-card:first-child,
 .training-wrap mat-card:first-child{
@@ -56,7 +69,13 @@ mat-card{
     font-size: 12px;
     font-weight: bold;
 } 
- 
+.news-wrap-margin {
+    margin-right: 35px;
+}
+.news-wrap-padding{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
 .nopadding {
     padding: 0px;
 } 
@@ -76,7 +95,9 @@ mat-card{
 .pd-t-63{
     padding-top: 63px;
 }
-
+.img-width{
+    width: 100%;
+}
 
 
 @media only screen and (max-width: 800px) {
