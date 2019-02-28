@@ -129,6 +129,7 @@ color: white;
   z-index: 99;
   left: 15px;
 }
+ 
 .mat-tab-label .mat-tab-label-content{
   border: 0px solid;
   padding: 12px;
@@ -139,4 +140,7 @@ color: white;
 }
 .custom-hk{
   z-index: 1;
+ 
+.fc-right{
+  display: none; 
 }
