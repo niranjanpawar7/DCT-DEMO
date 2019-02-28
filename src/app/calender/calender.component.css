@@ -1,4 +1,6 @@
- 
+.nopadding{
+    padding: 0px;
+} 
 .Calender mat-card .left-content{
     color: #1D232F;		font-size: 40px;	line-height: 25px; border-right: 1px solid #cecece; padding: 0px;
 }
