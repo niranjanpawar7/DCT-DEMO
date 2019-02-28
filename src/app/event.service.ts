@@ -16,8 +16,7 @@ export class EventSesrvice {
         },
         {
             title: 'Long Event',
-            start: yearMonth + '-07',
-            end: yearMonth + '-10'
+            start: yearMonth + '-07', 
         },
         {
             id: 999,
@@ -31,13 +30,11 @@ export class EventSesrvice {
         },
         {
             title: 'Conference',
-            start: yearMonth + '-11',
-            end: yearMonth + '-13'
+            start: yearMonth + '-11', 
         },
         {
             title: 'Meeting',
-            start: yearMonth + '-12T10:30:00',
-            end: yearMonth + '-12T12:30:00'
+            start: yearMonth + '-12T10:30:00', 
         },
         {
             title: 'Lunch',

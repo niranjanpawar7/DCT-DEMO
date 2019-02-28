@@ -32,9 +32,11 @@ export class ViewCalenderComponent implements OnInit {
       };
     });
   }
+
   loadevents(model: any) {
     this.displayEvent = model;
   }
+  
   eventClick(model: any) {
     model = {
       event: {

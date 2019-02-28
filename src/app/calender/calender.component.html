@@ -4,9 +4,9 @@
   </p> -->
 
 
-  <mat-tab-group>
+  <mat-tab-group [selectedIndex]="1">
     
-    <mat-tab label="List View">
+    <mat-tab label="LIST VIEW">
       <p>
         October
       </p>
@@ -65,14 +65,14 @@
       </mat-card>
 
     </mat-tab>
-    <mat-tab label="Calender View">
+    <mat-tab label="CALENDER VIEW">
       <app-view-calender></app-view-calender>
     </mat-tab> 
    
   </mat-tab-group>
 
-  <a href="#" class="events-btn-position">Upcoming Events <span class="caret"></span></a>
-  <button mat-button (click)="openDialog()" class="btn-dialog-position">Update Calender</button>
+  <a href="#" class="events-btn-position">UPCOMING EVENTS <span class="caret"></span></a>
+  <button mat-button (click)="openDialog()" class="btn-dialog-position">UPDATE CALENDER</button>
 </div><!-- Master-12 -->
 <div class="clearfix"></div>
 
