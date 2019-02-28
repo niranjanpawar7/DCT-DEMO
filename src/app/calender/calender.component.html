@@ -5,6 +5,7 @@
 
 
   <mat-tab-group>
+    
     <mat-tab label="List View">
       <p>
         October
@@ -66,15 +67,12 @@
     </mat-tab>
     <mat-tab label="Calender View">
       <app-view-calender></app-view-calender>
-    </mat-tab>
-
-    <mat-tab label="Update Calender">
-      <button mat-button (click)="openDialog()">Open dialog</button>
-    </mat-tab>
-
+    </mat-tab> 
+   
   </mat-tab-group>
 
-
+  <a href="#" class="events-btn-position">Upcoming Events <span class="caret"></span></a>
+  <button mat-button (click)="openDialog()" class="btn-dialog-position">Update Calender</button>
 </div><!-- Master-12 -->
 <div class="clearfix"></div>
 
