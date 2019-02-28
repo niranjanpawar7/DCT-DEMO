@@ -26,7 +26,12 @@
     "ngx-bootstrap": "^3.2.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "@types/jquery": "^3.3.0",
+    "fullcalendar": "3.6.1",
+    "jquery": "^3.2.1",
+    "moment": "^2.20.1",
+    "ng-fullcalendar": "^1.6.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
