@@ -91,7 +91,7 @@ hr {
     color: #B6B6B6;
 }
 .Travelling-wrapper  mat-card .flight-panel p span{
-    color: #cecece;
+    color: #696262;
 }
 .Travelling-wrapper  mat-card .flight-panel p:nth-child(2){
     margin-bottom: 15px;
@@ -101,4 +101,7 @@ hr {
 }
 .padding-top{
     padding:20px 0px;
+}
+.delta-margin{
+    margin-top: -15px;
 }

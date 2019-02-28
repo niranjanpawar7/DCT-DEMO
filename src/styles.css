@@ -156,4 +156,14 @@ color: white;
 }
 .mat-form-field-appearance-legacy .mat-form-field-underline{
   background-color: none;
+} 
+.mat-step-icon-state-number.mat-step-icon.mat-step-icon-selected{
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+.mat-step-header .mat-step-icon {
+  background-color: #fff;
+  color: rgba(0,0,0,.54);
+  border: 1px solid rgba(0,0,0,.54);
 }

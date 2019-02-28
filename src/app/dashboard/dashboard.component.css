@@ -98,6 +98,10 @@ mat-card{
 .img-width{
     width: 100%;
 }
+.due-sec-align{
+    font-weight: 400 !important;
+    color: #656b6fa8 !important;
+}
 
 
 @media only screen and (max-width: 800px) {
