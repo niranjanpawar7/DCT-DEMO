@@ -154,9 +154,6 @@ color: white;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
-.mat-form-field-appearance-legacy .mat-form-field-underline{
-  background-color: none;
-} 
 .mat-step-icon-state-number.mat-step-icon.mat-step-icon-selected{
   background-color: white;
   color: blue;
