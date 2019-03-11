@@ -51,8 +51,8 @@ a:hover {
     float: left;
     margin-top: 4px;
 }
-.common {
-    padding-top:20px; padding-bottom: 100px;
+.pd-top {
+    padding-top:32px !important;
 }
 .nopadding{
     padding: 0px;
