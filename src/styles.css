@@ -11,7 +11,7 @@ body{
 .mat-tab-label-container .mat-tab-list .mat-tab-labels {
     display: flex;
     float: right;
-    margin-right: 175px;
+    margin-right: 240px;
 } 
 .mat-tab-body-content {
   height: 100%;
@@ -119,7 +119,6 @@ z-index: 99;
 right: 15px;
 border: 0px solid;
 height: 35px;
-width: 14%;
 background-color: #2b62ca;
 color: white;
 }
