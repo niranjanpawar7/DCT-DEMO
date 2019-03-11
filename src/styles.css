@@ -166,3 +166,29 @@ color: white;
 .mat-form-field{
   width: 100%;
 }
+.mat-horizontal-stepper-header {
+  width: 125px;
+  text-align: center;
+  height: 125px !important;
+  padding: 0 49px !important;
+}
+.mat-step-label {
+  position: absolute;
+  bottom: 25px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  font-size: 16px !important;
+}
+.mat-step-header .mat-step-icon {
+  background-color: #fff;
+  color: rgba(0,0,0,.54);
+  border: 2px solid rgba(0,0,0,.54);
+  margin-right: auto !important;
+  margin: auto;
+  margin-top: 29px;
+}
+.mat-step-label-selected {
+  color: #1873d4 !important;
+  font-weight: 600;
+}
