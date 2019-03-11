@@ -1,5 +1,6 @@
 mat-card{
     margin-bottom: 15px; 
+    box-shadow: 0 6px 24px 0 #E2E9F7 !important;
 }
 .nopadding{
     padding: 0px;

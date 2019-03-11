@@ -1,8 +1,8 @@
 .training-section1 mat-card {
     color: #313338; 
     font-size: 12px;	
-    /* font-weight: 700;	 */
-    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.09); */
+    box-shadow: 0 6px 24px 0 #E2E9F7;
     margin-bottom: 15px;
     margin-top: 14px;
     padding-top: 9px;
@@ -67,6 +67,7 @@ a:hover {
 }
 .pd-top {
     padding-top:32px !important;
+    margin-bottom: 150px;
 }
 .sub-heading{
     font-size: 18px;   

@@ -4,8 +4,8 @@
     float: left;
     width: 100%;
     padding: 0px;
-    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
+    box-shadow: 0 6px 24px 0 #E2E9F7;
 }
 .Events-panel mat-card-content{
     padding-left:  0px;
@@ -52,7 +52,8 @@ mat-card{
     font-size: 14px;	
     font-weight: 500;	
     line-height: 20px;
-    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
+    box-shadow: 0 6px 24px 0 #E2E9F7;
     margin-right: 30px;
 } 
 .news-wrap mat-card:first-child,

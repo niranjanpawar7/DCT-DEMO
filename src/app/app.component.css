@@ -57,7 +57,9 @@
   padding: 10px 0px;
   }
   .main-container{
-     background:#eff3f9; padding-left: 60px; padding-right: 60px;
+     /* background:#f5f7fb;  */
+     background-color: #F7FAFF;
+     padding-left: 60px; padding-right: 60px;
   }
   .router-link-active { border-right: 4px solid skyblue;}
   
