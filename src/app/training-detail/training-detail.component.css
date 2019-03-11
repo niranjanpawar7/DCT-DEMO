@@ -1,15 +1,23 @@
 .training-floating {
     float: right;
-    font-size: 11px;
+    font-size: 14px;
     margin-left:50%;
-    padding-top: 10px;
+    padding-top: 7px;
+    margin-bottom: 0px;
 }
 .training-detail-top-padding{
-    padding-bottom: 100px; padding-left: 0px; padding-right:0px
+    padding-bottom: 150px; 
+    padding-left: 0px; 
+    padding-right:0px;
+    margin-top: 25px;
 }
 .hr-align{
-    margin-top: 5px;
+    margin-top: 6px;
     border-top: 1px solid #b8cef1;
+    margin-bottom: 0px;
+}
+.mr-11{
+    margin-top: 11px;
 }
 .oval{
     height: 13px;
@@ -28,30 +36,32 @@
     background-color: #7ED321;
 }
 .training-status {
-    font-size: 13px;
+    font-size: 14px;
     float: right;
     font-weight: 700;
 }
 .progress-bar {
     height: 30px;
-    background-color: #2861c7
+    border: 1px solid #cfd3dc;
 }
 .section-color{
     color: #1e49c1;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 20px;
 }
 .vertival-line {
     border-left:1px solid #dbe6f8;
     
 }
-.video-border {
-    border-left: 1px solid #b8cef1;
-    border-top: 1px solid #b8cef1;
-    border-bottom: 1px solid #b8cef1;
+.video-pd {
     padding: 25px;
 }
+.video-section{
+    margin-top: 25px;
+    border: 1px solid #e2e5e6;
+}
 .video-para {
-    font-size: 16px;
+    font-size: 17px;
 }
 .completed-badge .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content {
     background-color: #a9d099; 
@@ -75,6 +85,15 @@
 }
 .progress-color{
     background-color: #F5A623;
+}
+.a-back{
+    font-size: 16px;
+    cursor: pointer;
+}
+.hd-24{
+    font-size: 24px !important;
+    margin-top: 7px;
+    margin-bottom: 0px;
 }
 @media (min-width: 220px) and (max-width: 315px) {
     .training-status {
