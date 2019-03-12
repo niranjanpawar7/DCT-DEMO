@@ -4,7 +4,7 @@ import {MatTabsModule,
   MatBadgeModule, MatCardModule,
   MatStepperModule, MatTableModule,
   MatInputModule, MatSelectModule,
-  MatButtonModule, MatProgressBarModule
+  MatButtonModule, MatProgressBarModule, MatIconModule
 } from '@angular/material';
   
  
@@ -20,7 +20,8 @@ import {MatTabsModule,
     MatInputModule,
     MatSelectModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatIconModule
    
   ],
   exports: [  
@@ -32,7 +33,8 @@ import {MatTabsModule,
     MatInputModule,
     MatSelectModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatIconModule
   ]
 })
 export class EventDetailMaterialModule {};
