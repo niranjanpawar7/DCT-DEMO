@@ -7,6 +7,10 @@
     /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
     box-shadow: 0 6px 24px 0 #E2E9F7;
 }
+.nopadding.pd-b-70{
+    padding-bottom: 70px;
+    padding-top: 55px;
+}
 .Events-panel mat-card-content{
     padding-left:  0px;
     padding-right: 0px;
@@ -19,7 +23,7 @@
     color: #1D232F;		font-size: 48px;	line-height: 35px;
 }
 .Events-panel mat-card-content .right-content{
-    color: #2B62CA;		font-size: 17px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
+    color: #2B62CA;		font-size: 18px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
 }
 .Events-panel mat-card-content .upper-text{
     color: #1D232F;		font-size: 14px;	line-height: 19px;	text-align: right;
@@ -112,6 +116,7 @@ mat-card{
 .training-wrap span{
     font-size: 14px;
 }
+ 
 
 @media only screen and (max-width: 800px) {
     .Events-panel .mat-card{
