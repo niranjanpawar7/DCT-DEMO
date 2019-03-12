@@ -1,11 +1,16 @@
+.my-profile-top p{
+    font-size: 20px;
+}
 .my-profile-heading{
     color: #1D232F;
 }
 .my-profile-top{
-    padding-top:20px;
+    font-family: Lato;
+    margin-top: 24px;
 }
 .my-profile-sub-heading{
     color: #a4a6b9;
+    font-size: 14px;
 }
 .patient-bio {
     border: 0px solid;
@@ -25,27 +30,30 @@
     font-size: 14px;	
     font-weight: 500;	
     line-height: 20px;
-    /* box-shadow: inset 0 0 5px #d6d6e0; */
-    box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 24px 0 #E2E9F7;
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
     margin-bottom: 30px;
+    font-family: Lato;
 } 
+.my-profile-section1 h6{
+    padding-left: 0px;
+}
+.my-profile-section1 p{
+    padding-bottom: 7px;
+    color: #444444; 
+}
+.my-profile-section1 h4{
+    color: #1D232F;
+}
 .my-profile-info {
     color: #444444;
     font-family: Lato;
     font-size: 16px;
 }
-.align-div{
-    line-height: 10px;
-    padding-bottom: 20px;
+.p-ft-18{
+    font-size: 18px !important;
 }
-.align-div1{
-    padding-bottom: 20px; 
-}
-.align-div-padding{
-    padding-bottom: 20px;   
-     margin-left: -5%;
-     line-height: 10px;
-}
+
 .button-circle{
     border-radius: 50%;
     background-color: #4479f1;
