@@ -4,6 +4,19 @@ mat-card{
     box-shadow: 0 6px 24px 0 #E2E9F7 !important;
     font-family: Lato;
 }
+.divider{
+    width: 1px;
+    height: 150px;
+    background: #DBE6F8;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;	 
+}
+.ps-relative{
+    position: relative;
+}
 .nopadding{
     padding: 0px;
 }
@@ -91,8 +104,7 @@ hr {
     margin-top: 12px;
     border-radius: 0px;
 }
-.Travelling-wrapper  mat-card .flight-panel{
-    border-right: 1px solid #cecece;
+.Travelling-wrapper  mat-card .flight-panel{ 
     color: #1D232F;
     padding-bottom: 23px;
 }
