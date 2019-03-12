@@ -1,24 +1,30 @@
 mat-card{
     margin-bottom: 15px; 
+    margin-top: 6px;
     box-shadow: 0 6px 24px 0 #E2E9F7 !important;
+    font-family: Lato;
 }
 .nopadding{
     padding: 0px;
 }
 .bottom-panel p:first-child{
     color: #B6B6B6;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 4px;
 }
 .bottom-panel p{
     color: #444444;
-    font-size: 13px;
+    font-size: 20px;
+    font-family: Lato;
 }
 .icon-panel{
     padding-top: 15px;
 }
 .icon-panel span{
-    margin-right: 15px;
+    margin-right: 21px;
+}
+.icon-panel span img{
+    height: 26px;
 }
 .bottom-panel{
     margin-bottom: 10px;
@@ -30,7 +36,7 @@ mat-card{
 }
 .left-content span{
     color: #1D232F;
-    font-size: 12px;
+    font-size: 16px;
     /* line-height: 19px; */
     text-align: right;
     margin-bottom: 10px;
@@ -45,10 +51,10 @@ hr {
     margin-top:-20px;
 }
 .top-panel .col-md-11.nopadding{
-    padding-top: 15px;
+     padding-top: 10px; 
     color: #2B62CA;	
     font-family: Lato;	
-    font-size: 19px;	
+    font-size: 28px;	
     font-weight: bold;	 
 }
 .left-panel{
@@ -59,7 +65,7 @@ hr {
     color: #1D232F;	font-family: Lato;	font-weight: 500; margin-bottom: 7px;    
 }
 .text-size{
-    color: #1D232F;	font-size: 12px;	font-weight: 500; margin-bottom: 7px;    
+    color: #1D232F;	font-size: 18px;	font-weight: 500; margin-bottom: 7px;    
 }
 .btn.btn-plain{
     padding: 5px 10px;    
@@ -86,6 +92,10 @@ hr {
 
 .Travelling-wrapper  mat-card .flight-panel p{
     margin-bottom: 2px;
+    font-size: 17px;
+}
+.Travelling-wrapper  mat-card .flight-panel p:first-child{
+    font-size: 14px;
 }
 .Travelling-wrapper  mat-card .flight-panel p:first-child,
 .Travelling-wrapper  mat-card .hotel-panel p:first-child{
@@ -101,8 +111,16 @@ hr {
     font-size: 14px;
 }
 .padding-top{
-    padding:20px 0px;
+    padding:25px 0px;
 }
 .delta-margin{
     margin-top: -15px;
+}
+.a-back{
+    font-size: 16px;
+    cursor: pointer;
+}
+.ft-sz{
+    font-size: 48px !important;
+    margin-top: 8px;
 }

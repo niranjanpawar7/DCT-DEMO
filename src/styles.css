@@ -127,6 +127,7 @@ color: white;
   top: 15px;
   z-index: 99;
   left: 15px;
+  font-size: 16px;
 }
  
 .mat-tab-label .mat-tab-label-content{
