@@ -11,7 +11,6 @@
     font-weight: 500;
     line-height: 17px;
     padding-top: 32px;
-    font-family: Lato;
 }
 .icon-panel {
     padding-top: 30px
@@ -27,7 +26,6 @@
     padding-top: 25px;
     cursor: pointer;
     padding-bottom: 15px;
-    font-family: Lato;
 }
 .Calender mat-card .upper-text{
     color: #1D232F;		font-size: 16px;  
@@ -36,7 +34,6 @@
     padding: 20px 15px;
     margin-bottom: 15px;
     box-shadow: 0 6px 24px 0 #E2E9F7;
-    font-family: Lato;
 } 
 .icon-panel span{
     margin-right: 21px;
