@@ -103,7 +103,15 @@ mat-card{
     font-weight: 400 !important;
     color: #656b6fa8 !important;
 }
-
+.font-18{
+    font-size: 18px;
+}
+.pd-top-8{
+    padding-top: 8px;
+}
+.training-wrap span{
+    font-size: 14px;
+}
 
 @media only screen and (max-width: 800px) {
     .Events-panel .mat-card{
