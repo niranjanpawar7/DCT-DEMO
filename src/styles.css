@@ -134,15 +134,14 @@ color: white;
   left: 15px;
   font-size: 16px;
 }
- 
-.mat-tab-label .mat-tab-label-content{
+/* .mat-tab-label .mat-tab-label-content{
   border: 0px solid;
   padding: 12px;
   height: 32px;
   box-shadow: 0px 0px 1px 1px;
   background-color: #f7faff;
   color: #2B62CA;
-}
+} */
 .fc-right{
   display: none; 
 }
@@ -286,4 +285,12 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 }
 .pd-em-2 .mat-form-field-wrapper{
   padding-bottom: 2.25em !important;
+}
+.Calender .mat-ink-bar { 
+    background-color: transparent !important;
+    border: 1px solid #DBE6F8;
+    padding: 10px;
+    height: 100%;
+    border-bottom: none;
+    border-top:3px solid #55C4FF;
 }
