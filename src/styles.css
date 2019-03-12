@@ -1,12 +1,17 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 body{
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-family: 'Lato', sans-serif !important; 
 }
+.mat-stepper-horizontal, .mat-stepper-vertical,
+.mat-table,
+.mat-card,
+button, input, select, textarea{
+  font-family: 'Lato', sans-serif !important;
+} 
 .nopadding {
     padding: 0px;
-  }
+}
 
 .mat-tab-label-container .mat-tab-list .mat-tab-labels {
     display: flex;
@@ -264,6 +269,10 @@ color: white;
 .custom-table-btn-blue{
   height: 40px;
   width: 190px;
+  font-size: 16px !important;
+}
+.custom-table-btn{
+  height: 40px;
   font-size: 16px !important;
 }
 .custom-table-btn-white{
