@@ -64,41 +64,40 @@
     box-shadow: 0px 1px 1px 1px;
     padding-top: 0px;
 }
-.my-profile-section-circle .mat-badge-medium.mat-badge-overlap .mat-badge-content{
-    height: 46px;
-    width: 50px;
-    border: 1px solid #285fb1;
-    border-radius: 50%;
-    padding-top: 10px; 
-    font-size: 30px;
-    color: #fff;
-    position: relative;
-    float: right;
-    top: -20px;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    background-color: #285fb1;
-    vertical-align: middle;
-}
-.my-profile-section-circle2 .mat-badge-medium.mat-badge-overlap .mat-badge-content{
-    height: 43px;
-    width: 50px;
-    padding-top: 10px;
-    font-size: 30px;
-    /* background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%); */
-    color: #fff;
-    position: relative;
-    float: right;
-    top: -30px;
-    transform: rotateY(180deg);
-    background-color: #285fb1;
-}
+
 .nopadding{
     padding: 0px;
 }
 .img-radius{
     border-radius: 9px 9px 1px 1px;
     width: 100%
+}
+.bg-skublue{
+    background-color: #D6E4FF;
+    margin-top: -16px !important;
+    border: 1px solid #D6E4FF;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px;  
+    height: 136px;
+}
+.row.bg-skublue{
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.image-section-user{
+    text-align: center; 
+}
+.image-section-user img{  
+    margin: auto;
+    margin-top: -100px;
+}
+.image-section-user p{
+    padding-top: 19px;
+    padding-bottom: 30px;
+    color: #2D2A26;	font-family: "FreightSans Pro";	font-size: 20px;	font-weight: 600;	line-height: 27px;
+}
+.image-section-user + div h6{
+    margin-top: 0px
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .align-div-padding{
