@@ -7,10 +7,13 @@
 }
 
 .my-story-wrapper .download-button{
-    margin-top:12px;
+    margin-top:25px;
 }
 .my-story-wrapper .download-button-section2{
     margin-top:14px;
+}
+.my-story-wrapper .download-button-section2:last-child{ 
+    margin-bottom: 16px;
 }
 .my-story-section1 mat-card {
     color: #2B62CA; 
