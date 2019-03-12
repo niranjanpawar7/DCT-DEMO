@@ -5,7 +5,7 @@ import {
   MatStepperModule, MatTableModule,
   MatInputModule, MatSelectModule,
   MatButtonModule, MatProgressBarModule,
-  MatNativeDateModule
+  MatNativeDateModule,
 } from '@angular/material';
 
 @NgModule({
