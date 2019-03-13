@@ -161,3 +161,21 @@ hr {
 .mr-top-10{
     margin-top: 10px;
 }
+@media only screen and (max-width: 800px) {
+    .icon-panel{ 
+        text-align: left;
+    }
+    .hotel-panel{
+        padding-left: 15px !important;
+    }
+    .divider{
+        display: none;
+    }
+    .col-md-6.text-right{
+        text-align: left !important;
+    }
+    .Travelling-wrapper mat-card{
+        padding: 30px;
+    }
+
+}

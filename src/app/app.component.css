@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-
+.parent-wrapper {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.child-wrapper {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  text-align: center;
+}
   .nopadding.sticky-container{
     height: 100%;
     background: #2B62CA;
@@ -12,6 +23,11 @@
     position: fixed;
     height: 100%;
     background: #2B62CA;
+    /* top: 0;
+    bottom:0;
+    position:fixed; */
+    overflow-y:auto;
+    /* overflow-x:hidden; */
   }
   .nopadding {
     padding: 0px;
@@ -36,7 +52,8 @@
     background: #2B62CA;
     border-bottom: 1px solid #cecece;
     padding: 10px 0px;
-    text-align: center
+    text-align: center;
+    height: 135px;
   }
   .navbar-default .navbar-nav > li >:hover {
     background: #9ebbfa; 
@@ -51,6 +68,7 @@
   }
   .nav.navbar-nav li img{
     margin: auto;
+    margin-bottom: 10px;
   } 
   .nav-pad{
     opacity: 0.5;	color: #FFFFFF;	font-family: Lato;	font-size: 11px;	letter-spacing: 1px;	line-height: 13px;	text-align: center;

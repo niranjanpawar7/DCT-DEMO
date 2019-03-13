@@ -30,10 +30,10 @@
           <div class="col-md-12 nopadding">
             <div class="col-md-3 mtp-15">
               <mat-radio-group>
-                <mat-radio-button value="1">Every</mat-radio-button>
+                <mat-radio-button value="1" checked="true">Every</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
               <mat-form-field>
                 <mat-select placeholder="Monday">
                   <mat-option *ngFor="let food of foods" [value]="food.value">
@@ -43,16 +43,16 @@
               </mat-form-field>
             </div>
           </div>
-
+         
           <hr>
 
           <div class="col-md-12 nopadding">
             <div class="col-md-3 mtp-15">
               <mat-radio-group>
-                <mat-radio-button value="1">The</mat-radio-button>
+                <mat-radio-button value="2">The</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <mat-form-field>
                 <mat-select placeholder="1st">
                   <mat-option *ngFor="let food of foods" [value]="food.value">
@@ -61,9 +61,7 @@
                 </mat-select>
               </mat-form-field>
             </div>
-            <div class="col-md-2 mrtp">
-              Of
-            </div>
+            
             <div class="col-md-3">
               <mat-form-field>
                 <mat-select placeholder="Monday">
@@ -73,6 +71,18 @@
                 </mat-select>
               </mat-form-field>
             </div>
+            <div class="col-md-1 mrtp">
+                Of
+              </div>
+              <div class="col-md-2">
+                  <mat-form-field>
+                    <mat-select placeholder="Every Month">
+                      <mat-option *ngFor="let food of foods" [value]="food.value">
+                        {{food.viewValue}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </div>
           </div>
 
           <hr>
@@ -80,12 +90,24 @@
           <div class="col-md-12 nopadding">
             <div class="col-md-3 mtp-15">
               <mat-radio-group>
-                <mat-radio-button value="1">The</mat-radio-button>
+                <mat-radio-button value="3">The</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-3">
+                <mat-form-field>
+                  <mat-select placeholder="1st">
+                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                      {{food.viewValue}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            <div class="col-md-1 mrtp">
+                Of
+              </div>
+            <div class="col-md-5">
               <mat-form-field>
-                <mat-select placeholder="Favorite food">
+                <mat-select placeholder="Every Month">
                   <mat-option *ngFor="let food of foods" [value]="food.value">
                     {{food.viewValue}}
                   </mat-option>

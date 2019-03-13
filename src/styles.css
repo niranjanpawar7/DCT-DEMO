@@ -3,6 +3,9 @@
 body{
   font-family: 'Lato', sans-serif !important; 
 }
+mat-card button{
+  height: 40px !important;
+}
 .mat-stepper-horizontal, .mat-stepper-vertical,
 .mat-table,
 .mat-card,
@@ -304,4 +307,14 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
     position: relative;
     left: -7px;
     top: 10px;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle, 
+.mat-radio-button.mat-accent .mat-radio-ripple 
+.mat-ripple-element:not(.mat-radio-persistent-ripple), 
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, 
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple{
+  background-color: #6E6E6E;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+  border: 1px solid #979797;
 }
