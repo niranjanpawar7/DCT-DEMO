@@ -295,3 +295,13 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
     border-bottom: none;
     border-top:3px solid #55C4FF;
 }
+.mat-horizontal-stepper-header-container,
+.mat-horizontal-content-container {
+  box-shadow: 0 6px 24px 0 #E2E9F7;
+}
+.mat-icon.material-icons.ng-star-inserted {
+    color: green;
+    position: relative;
+    left: -7px;
+    top: 10px;
+}
