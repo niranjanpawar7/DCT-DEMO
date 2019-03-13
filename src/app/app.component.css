@@ -4,7 +4,10 @@
     height: 100%;
     background: #2B62CA;
   }
-  
+  .logo-section{
+    background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%);
+    padding: 0px;
+  }
   .sticky-container {
     position: fixed;
     height: 100%;
@@ -12,6 +15,9 @@
   }
   .nopadding {
     padding: 0px;
+  }
+  .nav-ul{
+    padding:0px; width:100%;
   }
   .navbar-nav>li{
       float: left;

@@ -13,7 +13,7 @@
     <mat-step [stepControl]="firstFormGroup">
       <ng-template matStepLabel>Inputting Expenses</ng-template>
 
-      <p class="expenses-header">EXPENSES REPORT</p>
+      <p class="expenses-header">EXPENSE REPORT</p>
       <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 mat-table-wd">
 
         <!--- Note that these columns can be defined in any order.
@@ -187,7 +187,7 @@
 
         <ng-container matColumnDef="footer-row-second-group">
           <th colspan="2" class="mat-cl-right" mat-footer-cell *matFooterCellDef>
-            <p style="color: #F5A623">EXPENSE REPORT PROCESSING</p>
+            <p class="clr-exp-process">EXPENSE REPORT PROCESSING</p>
           </th>
         </ng-container>
         <!-- Custom Header || Footer End -->
@@ -252,7 +252,7 @@
 
         <ng-container matColumnDef="footer-row-second-group">
           <th colspan="2" class="mat-cl-right" mat-footer-cell *matFooterCellDef>
-            <p style="color: #7ED321">EXPENSES PAID</p>
+            <p class="clr-exp-paid">EXPENSES PAID</p>
           </th>
         </ng-container>
         <!-- Custom Header || Footer End -->
