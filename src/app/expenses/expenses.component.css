@@ -15,12 +15,14 @@
     border-radius: 0px;
 }
 .btn.btn-plain-upload{
-    padding: 20px 10px; 
+    /* padding: 20px 10px;  */
     border: 1px solid #2B62CA;
     background-color: white;
-    font-size: 12px;
+    font-size: 18px;
     color: #2B62CA;
     border-radius: 0px;
+    height: 77px !important;
+    width: 252px;
 }
 .margin-top-25{
     margin-top: 25px;
