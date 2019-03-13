@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+  overflow: -moz-scrollbars-none
+} 
+/* optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+  background: #FF0000;
+} */
 .parent-wrapper {
   height: 100%;
   width: 100%;
@@ -28,6 +37,8 @@
     position:fixed; */
     overflow-y:auto;
     /* overflow-x:hidden; */
+    scrollbar-width: none;
+    
   }
   .nopadding {
     padding: 0px;
