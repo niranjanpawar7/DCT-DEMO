@@ -95,6 +95,15 @@
     margin-top: 7px;
     margin-bottom: 0px;
 }
+.percentage{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    top: 46px;
+    z-index: 99999999999;
+}
 @media (min-width: 220px) and (max-width: 315px) {
     .training-status {
         float: none;

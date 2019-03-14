@@ -91,8 +91,12 @@
     </mat-tab> 
    
   </mat-tab-group>
-
-  <a href="#" class="events-btn-position">UPCOMING EVENTS <span class="caret"></span></a>
+  <select class="events-btn-position form-control">
+    <option>UPCOMING EVENTS</option>
+    <option>All Events</option>
+    <option>My Events</option> 
+  </select>
+  <!-- <a href="#" class="events-btn-position">UPCOMING EVENTS <span class="caret"></span></a> -->
   <button mat-button (click)="openDialog()" class="btn-dialog-position">SCHEDULING PREFERENCES</button>
 </div><!-- Master-12 -->
 <div class="clearfix"></div>

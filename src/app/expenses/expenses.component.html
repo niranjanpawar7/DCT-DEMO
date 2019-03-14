@@ -80,28 +80,37 @@
         <mat-card>
           <div class="col-md-6">
             <mat-form-field class="example-full-width">
-              <textarea matInput placeholder="AMOUNT"></textarea>
+              <input matInput placeholder="AMOUNT"> 
             </mat-form-field>
           </div>
           <div class="clearfix"></div>
           <div class="col-md-6">
-            <mat-form-field class="example-full-width">
-              <textarea matInput placeholder="PURPOSE"></textarea>
+            <mat-form-field class="mr-t-7">
+              <mat-select placeholder="PURPOSE">
+                <mat-option>
+                   PURPOSE
+                </mat-option>
+              </mat-select>
             </mat-form-field>
           </div>
           <div class="col-md-6 pd-em-2">
-            <mat-form-field>
+            <!-- <mat-form-field>
               <mat-select placeholder="DATE OF SPENDING">
                 <mat-option *ngFor="let food of foods" [value]="food.value">
                   {{food.viewValue}}
                 </mat-option>
               </mat-select>
+            </mat-form-field> -->
+            <mat-form-field>
+              <input matInput [matDatepicker]="picker999" placeholder="DATE OF SPENDING">
+              <mat-datepicker-toggle matSuffix [for]="picker999"></mat-datepicker-toggle>
+              <mat-datepicker #picker999></mat-datepicker>
             </mat-form-field>
           </div>
           <div class="clearfix"></div>
           <div class="col-md-6">
             <mat-form-field class="example-full-width">
-              <textarea matInput placeholder="MERCHANT"></textarea>
+              <input matInput placeholder="MERCHANT"> 
             </mat-form-field>
           </div>
           <div class="col-md-6 pd-em-2">
