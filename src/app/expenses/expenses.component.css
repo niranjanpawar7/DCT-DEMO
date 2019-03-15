@@ -6,6 +6,9 @@
     color: #2B62CA;
     border-radius: 0px;
 }
+.mr-t-7{
+    margin-top: 7px;
+}
 .btn.btn-plain-blue{
     padding: 5px 10px;
     border: 1px solid #2B62CA;
@@ -71,6 +74,7 @@
 .cancel-btn{
     margin-right: 16px;
 }
+
 .clr-exp-process{
     color: #F5A623;
 }

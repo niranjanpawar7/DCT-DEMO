@@ -1,7 +1,17 @@
 .nopadding{
     padding: 0px;
 } 
-
+.events-btn-position.form-control{
+    width: 177px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #2B62CA;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: -3px;
+    text-transform:uppercase;
+}
 .Calender mat-card .left-content{
     color: #1D232F;		font-size: 40px; font-family: Lato;	line-height: 25px; border-right: 1px solid #cecece; padding: 0px;
 }
