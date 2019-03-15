@@ -2,7 +2,7 @@
     float: right;
     font-size: 14px;
     margin-left:50%;
-    padding-top: 7px;
+    /* padding-top: 7px; */
     margin-bottom: 0px;
 }
 .training-detail-top-padding{
@@ -42,7 +42,7 @@
 }
 .progress-bar {
     height: 30px;
-    border: 1px solid #cfd3dc;
+    border: 1px solid #DBE6F8;
 }
 .section-color{
     color: #1e49c1;
@@ -58,7 +58,7 @@
 }
 .video-section{
     margin-top: 25px;
-    border: 1px solid #e2e5e6;
+    border: 1px solid #DBE6F8;
 }
 .video-para {
     font-size: 17px;
@@ -91,8 +91,8 @@
     cursor: pointer;
 }
 .hd-24{
-    font-size: 20px !important;
-    margin-top: 7px;
+    font-size: 18px !important;
+    /* margin-top: 7px; */
     margin-bottom: 0px;
 }
 .percentage{
@@ -103,6 +103,9 @@
     text-align: center;
     top: 46px;
     z-index: 99999999999;
+    color: #2B62CA;
+    font-size: 14px;
+    font-weight: bold;
 }
 @media (min-width: 220px) and (max-width: 315px) {
     .training-status {

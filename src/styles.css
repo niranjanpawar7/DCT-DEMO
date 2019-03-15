@@ -4,7 +4,10 @@ body{
   font-family: 'Lato', sans-serif !important; 
 }
 .mat-elevation-z8{
-  box-shadow: none !important;
+  box-shadow: 0 6px 24px 0 #E2E9F7 !important;
+}
+.clr-pop{
+  color: #B6B6B6;
 }
 .mat-form-field-appearance-legacy .mat-form-field-infix{
   color: #B6B6B6;
@@ -81,8 +84,8 @@ hr {
   height: 350px;
 }
 .dailog-wrapper .border-wrap{
-  border-right: 1px solid #cecece;  
-  border-bottom: 1px solid #cecece; 
+  border-right: 1px solid #DBE6F8;  
+  border-bottom: 1px solid #DBE6F8; 
 }
 .dailog-wrapper .border-wrap p{
   margin-left: 18px;
@@ -104,7 +107,7 @@ hr {
   padding: 0px;
 }
 .dailog-form-wrap{
-  border-bottom: 1px solid #cecece;
+  border-bottom: 1px solid #DBE6F8;
 }
 .dailog-form-wrap hr{
   margin-top: 7px;
@@ -113,6 +116,7 @@ hr {
 .dailog-wrapper .custom-hr{
   margin-top: 0px;
   margin-bottom: 10px;
+  border-top: 1px solid #DBE6F8;
 }
 .mrtp{
   margin-top: 20px;
@@ -323,4 +327,7 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 }
 .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
   border: 1px solid #979797;
+}
+.mat-tab-header, .mat-tab-nav-bar{
+  border-bottom: 1px solid #DBE6F8;
 }

@@ -59,6 +59,7 @@ hr {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 15px;
+    border-top: 1px solid #DBE6F8;
 }
 .hr-tp{
     margin-top: 10px !important;
@@ -71,11 +72,11 @@ hr {
      padding-top: 10px; 
     color: #2B62CA;	
     font-family: Lato;	
-    font-size: 28px;	
+    font-size: 20px;	
     font-weight: bold;	 
 }
 .left-panel{
-    border-right: 1px solid #cecece;
+    border-right: 1px solid #DBE6F8;
     padding-right: 27px;
 }  
 .left-panel p:first-child,

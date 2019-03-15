@@ -4,6 +4,7 @@
 .my-story-wrapper hr{
     margin-bottom: 10px;
     margin-top: 16px;
+    border-top: 1px solid #DBE6F8;
 }
 
 .my-story-wrapper .download-button{
