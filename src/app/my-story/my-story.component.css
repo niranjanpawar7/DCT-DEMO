@@ -1,5 +1,5 @@
 .my-story-wrapper p{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .my-story-wrapper hr{
     margin-bottom: 10px;
@@ -11,7 +11,10 @@
     margin-top:25px;
 }
 .my-story-wrapper .download-button-section2{
-    margin-top:14px;
+    margin-top:0px;
+}
+.mr-tp-32 h4{
+    margin-left: 5px;
 }
 .my-story-wrapper .download-button-section2:last-child{ 
     margin-bottom: 16px;

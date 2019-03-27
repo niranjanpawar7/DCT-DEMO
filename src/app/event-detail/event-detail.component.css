@@ -73,11 +73,11 @@ hr {
     color: #2B62CA;	
     font-family: Lato;	
     font-size: 20px;	
-    font-weight: bold;	 
+    font-weight: bold;
+    padding-left: 10px;	 
 }
 .left-panel{
-    border-right: 1px solid #DBE6F8;
-    padding-right: 27px;
+    border-right: 1px solid #DBE6F8; 
 }  
 .left-panel p:first-child,
 .right-panel p:first-child{
@@ -121,8 +121,15 @@ hr {
 .Travelling-wrapper  mat-card .hotel-panel p:first-child{
     color: #B6B6B6;
 }
+.ml-minus{
+    margin-left: -20px;
+}
 .hotel-panel{
     padding-left: 0px !important;
+}
+.hotel-panel p{
+    margin-bottom: 0px !important;
+    margin-top: 0px;
 }
 .Travelling-wrapper  mat-card .flight-panel p span{
     color: #696262;
@@ -143,6 +150,10 @@ hr {
 .ft-sz{
     font-size: 48px !important;
     margin-top: 8px;
+    margin-inline-start: -4px;
+}
+.left-content.m-tp-minus{
+    padding-right: 26px;
 }
 .ht-sz{
     font-size: 18px !important;
