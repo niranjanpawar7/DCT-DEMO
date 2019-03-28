@@ -369,4 +369,10 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
   .my-story-section1 mat-card {
     margin-bottom: 40px !important;
   } 
+  .mat-horizontal-stepper-header-container { 
+    width: 100% !important; 
+  }
+  .mat-horizontal-stepper-header {  
+    padding: 0px 10px !important;
+  }
 }
