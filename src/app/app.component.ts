@@ -14,5 +14,8 @@ export class AppComponent {
   menuListClose(event){   
     event.target.parentNode.parentNode.parentElement.parentElement.parentElement.parentElement.classList.remove('custom-hide', 'show', 'navbar-collapse', 'collapse');   
   }
+  menuListCloseImg(event){ 
+    event.target.parentNode.parentNode.parentElement.parentElement.parentElement.parentElement.parentElement.classList.remove('custom-hide', 'show', 'navbar-collapse', 'collapse');   
+  }
 }
 
