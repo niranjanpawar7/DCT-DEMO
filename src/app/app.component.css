@@ -4,10 +4,12 @@
   background: transparent;  /* optional: just make scrollbar invisible */
   overflow: -moz-scrollbars-none
 } 
+
 /* optional: show position indicator in red */
 /* ::-webkit-scrollbar-thumb {
   background: #FF0000;
 } */
+
 .parent-wrapper {
   height: 100%;
   width: 100%;
@@ -113,7 +115,27 @@
     .sticky-container {
       position: relative; 
     }
+    .navbar-nav {
+      margin: 0px !important;
+    }
+    .navbar{
+      margin-bottom: 0px !important;
+    }
+    .navbar-header{
+      background: linear-gradient(to bottom right,#29bcec 0,#053858 100%);
+    }
+    .navbar-default .navbar-brand {
+      color: #fff !important;
+    }
     .main-container{
       padding-left: 15px; padding-right: 15px;
      } 
+     .router-link-active { 
+      border-right: none !important;
+      border-bottom: 4px solid skyblue !important;
+      opacity: 1 !important;
+    }
+    .custom-hide{
+      display: none;
+    }
   }
