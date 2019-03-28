@@ -3,6 +3,7 @@
   </button> -->
 
 <div class="col-md-12 expesnes-wrapper">
+    <div  class="col-md-12 nopadding"><a class="a-back">BACK</a></div>
   <p class="expenses-header">
      PROGRESS
   </p>
@@ -21,7 +22,7 @@
 
         <!-- Position Column -->
         <ng-container matColumnDef="PURPOSE">
-          <th mat-header-cell *matHeaderCellDef> PURPOSE. </th>
+          <th mat-header-cell *matHeaderCellDef> PURPOSE </th>
           <td mat-cell *matCellDef="let element"> {{element.PURPOSE}} </td>
         </ng-container>
 
@@ -87,9 +88,17 @@
           <div class="col-md-6">
             <mat-form-field class="mr-t-7">
               <mat-select placeholder="PURPOSE">
-                <mat-option>
-                   PURPOSE
-                </mat-option>
+                <mat-option [value]="Airfare">Airfare</mat-option>
+                <mat-option [value]="Lodging">Lodging</mat-option>
+                <mat-option [value]="Ground-Transportation"> Ground Transportation</mat-option>
+                <mat-option [value]="Others">Others</mat-option> 
+                <mat-option [value]="Tips">Tips/Hotel OOP</mat-option>
+                <mat-option [value]="Business">Business Meal OOP</mat-option>
+                <mat-option [value]="Tolls">Tolls/Ground Transportation OOP</mat-option>
+                <mat-option [value]="Baggage">Baggage Fee/Airline OOP</mat-option>
+                <mat-option [value]="Misc">Misc/Hotel OOP</mat-option>
+                <mat-option [value]="Misc-Ground">Misc/Ground Transportation OOP</mat-option>
+                <mat-option [value]="Misc-Airline">Misc/Airline OOP</mat-option> 
               </mat-select>
             </mat-form-field>
           </div>
@@ -153,7 +162,7 @@
 
         <!-- Position Column -->
         <ng-container matColumnDef="PURPOSE">
-          <th mat-header-cell *matHeaderCellDef> PURPOSE. </th>
+          <th mat-header-cell *matHeaderCellDef> PURPOSE </th>
           <td mat-cell *matCellDef="let element"> {{element.PURPOSE}} </td>
         </ng-container>
 
@@ -218,7 +227,7 @@
 
         <!-- Position Column -->
         <ng-container matColumnDef="PURPOSE">
-          <th mat-header-cell *matHeaderCellDef> PURPOSE. </th>
+          <th mat-header-cell *matHeaderCellDef> PURPOSE </th>
           <td mat-cell *matCellDef="let element"> {{element.PURPOSE}} </td>
         </ng-container>
 

@@ -1,5 +1,5 @@
 .my-story-wrapper p{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .my-story-wrapper hr{
     margin-bottom: 10px;
@@ -11,7 +11,10 @@
     margin-top:25px;
 }
 .my-story-wrapper .download-button-section2{
-    margin-top:14px;
+    margin-top:0px;
+}
+.mr-tp-32 h4{
+    margin-left: 5px;
 }
 .my-story-wrapper .download-button-section2:last-child{ 
     margin-bottom: 16px;
@@ -99,9 +102,8 @@
     .download-button-section2 {
         width: 40%;
     }
-    .my-story-section1 mat-card {
-        margin-bottom: 18px;
-    } 
+    
+    
   }
   @media (min-width:850px) and (max-width: 1024px){
     .download-button {
@@ -111,3 +113,12 @@
         width: 60%;
     }
   }
+
+@media only screen and (max-width: 800px) {
+  .col-md-12 .mr-tp-32{
+      padding-left: 0px;
+  }
+  .mr-tp-32{
+      margin-left: 0px;
+  }
+}
