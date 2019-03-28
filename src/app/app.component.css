@@ -1,4 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* .col-md-1.sticky-container{
+  width: 135px !important;
+} 
+.col-md-1.sticky-container .col-md-12{
+  width: 135px !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
@@ -111,7 +135,7 @@
     opacity: 1 !important;
 }
   
-  @media only screen and (max-width: 800px) {
+   @media only screen and (max-width: 800px) { 
     .sticky-container {
       position: relative; 
     }
@@ -137,5 +161,39 @@
     }
     .custom-hide{
       display: none;
-    }
+    } 
   }
+ 
+
+    @media (max-width: 800px) {
+      .sidebar-navbar-collapse.nopadding{
+        display: none;
+      }
+      .navbar-header {
+        float: none;
+      }
+      .navbar-toggle {
+          display: block;
+      } 
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+     
+      .navbar-nav {
+          float: none!important;
+          margin: 7.5px -15px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .custom-hide{
+        display: none;
+      } 
+      
+    }    
+  
