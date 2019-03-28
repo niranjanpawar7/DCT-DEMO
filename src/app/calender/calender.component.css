@@ -67,6 +67,9 @@
     .mat-tab-group{
         width: 100%;
     }
+    .Calender{
+        padding-top: 100px;
+    }
     .Calender mat-card .right-content{
        padding-left: 0px;
     }

@@ -339,3 +339,9 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .mat-tab-header, .mat-tab-nav-bar{
   border-bottom: 1px solid #DBE6F8;
 }
+
+@media only screen and (max-width: 800px) {
+  .my-story-section1 mat-card {
+    margin-bottom: 40px !important;
+  } 
+}

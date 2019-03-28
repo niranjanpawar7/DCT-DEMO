@@ -11,13 +11,8 @@ export class AppComponent {
   public button_name : any = 'Show Login Form!';
 
 
-  // toggle() { 
-  //   this.show_dialog = !this.show_dialog; 
-  //   // CHANGE THE TEXT OF THE BUTTON.
-  //   if(this.show_dialog) 
-  //     this.button_name = "Hide Login Form!";
-  //   else
-  //     this.button_name = "Show Login Form!";
-  // }
+  menuListClose(event){  
+    event.target.parentNode.parentNode.parentElement.parentElement.parentElement.parentElement.classList.remove('custom-hide', 'show');   
+  }
 }
 
