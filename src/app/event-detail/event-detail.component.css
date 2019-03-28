@@ -64,6 +64,7 @@ hr {
 .hr-tp{
     margin-top: 10px !important;
     margin-bottom: 20px;
+    margin-left: -19px;
 }
 .left-content.m-tp-minus{
     margin-top:-20px;
@@ -121,9 +122,9 @@ hr {
 .Travelling-wrapper  mat-card .hotel-panel p:first-child{
     color: #B6B6B6;
 }
-.ml-minus{
+/* .ml-minus{
     margin-left: -20px;
-}
+} */
 .hotel-panel{
     padding-left: 0px !important;
 }
@@ -172,6 +173,13 @@ hr {
 }
 .mr-top-10{
     margin-top: 10px;
+}
+.ps-abs-digit{ 
+    margin-left: -10px;
+    margin-right: 15px;
+}
+.ht-sz{
+    display: flex;
 }
 @media only screen and (max-width: 800px) {
     .icon-panel{ 

@@ -11,8 +11,7 @@ export class AppComponent {
   public button_name : any = 'Show Login Form!';
 
 
-  menuListClose(event){  
-    debugger
+  menuListClose(event){   
     event.target.parentNode.parentNode.parentElement.parentElement.parentElement.parentElement.classList.remove('custom-hide', 'show', 'navbar-collapse', 'collapse');   
   }
 }
