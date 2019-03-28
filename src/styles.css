@@ -132,7 +132,7 @@ hr {
 }
 .btn-dialog-position{
 position: absolute;
-top: 6px;
+top: 17px;
 z-index: 99;
 right: 15px;
 border: 0px solid;
@@ -141,11 +141,32 @@ background-color: #2b62ca;
 color: white;
 }
 .events-btn-position{
-  position: absolute;
-  top: 15px;
+  position: absolute !important;
+  top: 0px;
   z-index: 99;
   left: 15px;
   font-size: 16px;
+}
+.mat-select-value {
+  color: #2B62CA;
+}
+.mat-select-arrow {
+  color: #2B62CA;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: #fff;
+}
+.mat-form-field.mat-focused .mat-form-field-ripple{
+  background-color: #fff;
+}
+.mat-select-panel {
+  margin-left: 16px;
+}
+.mat-option-text {
+  color: #2B62CA;
+}
+.mat-tab-header {
+  margin-top: 17px;
 }
 /* .mat-tab-label .mat-tab-label-content{
   border: 0px solid;

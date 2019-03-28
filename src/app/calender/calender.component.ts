@@ -8,7 +8,7 @@ import { MatDialog } from '@angular/material';
   styleUrls: ['./calender.component.css']
 })
 export class CalenderComponent implements OnInit {
-
+  selected = 'upcoming';
   constructor(public dialog: MatDialog) { }
 
   openDialog() {
