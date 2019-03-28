@@ -9,7 +9,7 @@
     margin-top: 24px;
 }
 .my-profile-sub-heading{
-    color: #a4a6b9;
+    color: #B6B6B6;
     font-size: 14px;
 }
 .patient-bio {
@@ -22,16 +22,17 @@
     color: #2B62CA; 
     
 }
+.pd-t-8{
+    padding-top: 4px;
+}
 .my-profile-section1 mat-card,
 .my-profile-section2 mat-card {
-    /* border-radius: 0px; */
-    /* border-bottom: 1px solid #E9EFF9; */
+    border-radius: 8px; 
     color: #313338; 
     font-size: 14px;	
     font-weight: 500;	
     line-height: 20px;
-    box-shadow: 0 6px 24px 0 #E2E9F7;
-    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
+    box-shadow: 0 6px 24px 0 #E2E9F7; 
     margin-bottom: 30px;
     font-family: Lato;
 } 
@@ -41,6 +42,7 @@
 .my-profile-section1 p{
     padding-bottom: 7px;
     color: #444444; 
+    font-family: lato;
 }
 .my-profile-section1 h4{
     color: #1D232F;
@@ -94,7 +96,7 @@
 .image-section-user p{
     padding-top: 19px;
     padding-bottom: 30px;
-    color: #2D2A26;	font-family: "FreightSans Pro";	font-size: 20px;	font-weight: 600;	line-height: 27px;
+    color: #2D2A26;	font-size: 20px;	font-weight: 600;	line-height: 27px;
 }
 .image-section-user + div h6{
     margin-top: 0px

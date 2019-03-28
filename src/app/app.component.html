@@ -1,13 +1,17 @@
 <div class="col-md-1 nopadding sticky-container">
   <div class="col-md-12 logo-section">
-    <img src="assets/icons/main-icon.svg" alt="company logo" class="img-responsive custom-logo" />
+      <div class="parent-wrapper">
+          <div class="child-wrapper">
+    <img src="assets/img/logo.png" alt="company logo" class="img-responsive custom-logo" />
+    </div>
+    </div>
   </div><!-- col-md-12-->
   <div class="clearfix"></div>
   <div class="col-md-12 nopadding">
     <div class="sidebar-nav">
       <div class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
-          <button type="button" (click)="toggle()" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -15,8 +19,8 @@
           </button>
           <span class="visible-xs navbar-brand">Menu</span>
         </div>
-        <div class="navbar-collapse sidebar-navbar-collapse nopadding" *ngIf="!show_dialog">
-          <ul class="nav navbar-nav nav-ul">
+        <div class="navbar-collapse sidebar-navbar-collapse nopadding custom-hide">
+          <ul class="nav navbar-nav nav-ul" (click)="menuListClose($event)">
 
             <li>
               <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']">
@@ -37,7 +41,7 @@
                   <div class="parent-wrapper">
                     <div class="child-wrapper">
                       <img src="assets/icons/calendar.svg" class="img-responsive" />
-                      CALENDER
+                      CALENDAR
                     </div>
                   </div>
                 </span>

@@ -1,13 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* .col-md-1.sticky-container{
+  width: 135px !important;
+} 
+.col-md-1.sticky-container .col-md-12{
+  width: 135px !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
   overflow: -moz-scrollbars-none
 } 
+
 /* optional: show position indicator in red */
 /* ::-webkit-scrollbar-thumb {
   background: #FF0000;
 } */
+
 .parent-wrapper {
   height: 100%;
   width: 100%;
@@ -19,14 +45,19 @@
   width: 100%;
   display: table-cell;
   text-align: center;
+  opacity: 0.5;
+}
+.logo-section .child-wrapper{
+  opacity: 1;
 }
   .nopadding.sticky-container{
     height: 100%;
     background: #2B62CA;
   }
   .logo-section{
-    background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%);
-    padding: 0px;
+    padding: 0;
+    background: linear-gradient(to bottom right,#29bcec 0,#053858 100%);
+    height: 132px; 
   }
   .sticky-container {
     position: fixed;
@@ -61,7 +92,7 @@
   .navbar-default .navbar-nav>li>a {
     color: #FFFFFF;
     background: #2B62CA;
-    border-bottom: 1px solid #cecece;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
     padding: 10px 0px;
     text-align: center;
     height: 135px;
@@ -96,13 +127,73 @@
      background-color: #F7FAFF;
      padding-left: 60px; padding-right: 60px;
   }
-  .router-link-active { border-right: 4px solid skyblue;}
+  .router-link-active { 
+      border-right: 4px solid skyblue !important;
+      opacity: 1 !important;
+  }
+  .router-link-active .child-wrapper{  
+    opacity: 1 !important;
+}
   
-  @media only screen and (max-width: 800px) {
+   @media only screen and (max-width: 800px) { 
     .sticky-container {
       position: relative; 
+    }
+    .navbar-nav {
+      margin: 0px !important;
+    }
+    .navbar{
+      margin-bottom: 0px !important;
+    }
+    .navbar-header{
+      background: linear-gradient(to bottom right,#29bcec 0,#053858 100%);
+    }
+    .navbar-default .navbar-brand {
+      color: #fff !important;
     }
     .main-container{
       padding-left: 15px; padding-right: 15px;
      } 
+     .router-link-active { 
+      border-right: none !important;
+      border-bottom: 4px solid skyblue !important;
+      opacity: 1 !important;
+    }
+    .custom-hide{
+      display: none;
+    } 
   }
+ 
+
+    @media (max-width: 800px) {
+      .sidebar-navbar-collapse.nopadding{
+        display: none;
+      }
+      .navbar-header {
+        float: none;
+      }
+      .navbar-toggle {
+          display: block;
+      } 
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+     
+      .navbar-nav {
+          float: none!important;
+          margin: 7.5px -15px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .custom-hide{
+        display: none;
+      } 
+      
+    }    
+  
