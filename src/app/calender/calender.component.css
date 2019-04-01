@@ -14,7 +14,7 @@
     margin-top: 0px;
 }
 .Calender mat-card .left-content{
-    color: #1D232F;		font-size: 40px; font-family: Lato;	line-height: 25px; border-right: 1px solid #DBE6F8; padding: 0px;
+    color: #1D232F;		font-size: 40px;	line-height: 25px; border-right: 1px solid #DBE6F8; padding: 0px;
 }
 .Calender mat-card .middle-panel{
     color: #1D232F;
@@ -54,7 +54,6 @@
 }
 .ft-18{
     font-size: 18px;
-    font-family: Lato;
     color: #1D232F;
 }
 .ft-sz{

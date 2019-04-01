@@ -1,5 +1,5 @@
 .header-text{
-    color: #1D232F;	font-family: Lato;	font-size: 30px;	line-height: 44px;
+    color: #1D232F;	font-size: 30px;	line-height: 44px;
     padding-top: 14px;
 }    
 .header-right-text {
@@ -8,7 +8,6 @@
     padding: 5px 7px;
     /* border-radius: 8px; */
     color: #2B62CA;
-    font-family: Lato;
     font-size: 15px;
     font-weight: bold;
     line-height: 19px;
