@@ -11,7 +11,7 @@
     text-align: left;
     margin-left: 0px;
     text-transform:uppercase;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 .Calender mat-card .left-content{
     color: #1D232F;		font-size: 40px;	line-height: 25px; border-right: 1px solid #DBE6F8; padding: 0px;
@@ -68,7 +68,7 @@
         width: 100%;
     }
     .Calender{
-        padding-top: 100px;
+        padding-top: 160px;
     }
     .Calender mat-card .right-content{
        padding-left: 0px;
@@ -83,6 +83,9 @@
     }
     .Calender mat-card .left-content{
         border-right: 0px;
+    }
+    .events-btn-position.form-control{
+        margin-top: 65px;
     }
 }
 

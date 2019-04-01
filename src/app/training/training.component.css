@@ -68,8 +68,7 @@ a:hover {
     float: left;
     margin-top: 4px;
 }
-.pd-top {
-    padding-top:32px !important;
+.pd-top { 
     margin-bottom: 150px;
 }
 .sub-heading{
