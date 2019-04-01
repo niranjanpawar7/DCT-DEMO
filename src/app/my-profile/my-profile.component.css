@@ -5,7 +5,6 @@
     color: #1D232F;
 }
 .my-profile-top{
-    font-family: Lato;
     margin-top: 24px;
 }
 .my-profile-sub-heading{
@@ -34,7 +33,6 @@
     line-height: 20px;
     box-shadow: 0 6px 24px 0 #E2E9F7; 
     margin-bottom: 30px;
-    font-family: Lato;
 } 
 .my-profile-section1 h6{
     padding-left: 0px;
@@ -42,14 +40,12 @@
 .my-profile-section1 p{
     padding-bottom: 7px;
     color: #444444; 
-    font-family: lato;
 }
 .my-profile-section1 h4{
     color: #1D232F;
 }
 .my-profile-info {
     color: #444444;
-    font-family: Lato;
     font-size: 16px;
 }
 .p-ft-18{

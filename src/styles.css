@@ -1,7 +1,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 body{
-  font-family: 'Lato', sans-serif !important; 
+  font-family: 'Roboto', sans-serif !important;
 }
 .mat-elevation-z8{
   box-shadow: 0 6px 24px 0 #E2E9F7 !important;
@@ -19,7 +19,7 @@ mat-card button{
 .mat-table,
 .mat-card,
 button, input, select, textarea{
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 } 
 .nopadding {
     padding: 0px;
