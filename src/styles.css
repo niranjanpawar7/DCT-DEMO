@@ -164,6 +164,10 @@ hr {
 .Calender .mat-form-field.mat-focused .mat-form-field-ripple{
   background-color: transparent !important;
 }
+.expesnes-wrapper.header-below-content .mat-form-field-appearance-legacy .mat-form-field-underline,
+.expesnes-wrapper.header-below-content .mat-form-field.mat-focused .mat-form-field-ripple{
+  background-color: #cecece !important;
+}
 .mat-select-panel {
   margin-left: 16px;
 }
