@@ -3,6 +3,7 @@
 body{
   font-family: 'Roboto', sans-serif !important;
 }
+
 .mat-elevation-z8{
   box-shadow: 0 6px 24px 0 #E2E9F7 !important;
 }
@@ -364,6 +365,13 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .mat-tab-header, .mat-tab-nav-bar{
   border-bottom: 1px solid #DBE6F8;
 }
+.header-below-content{
+  margin-top: 120px !important;
+}
+/* 
+.expesnes-wrapper.header-below-content{
+  margin-top: 220px !important;
+}   */
 
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
