@@ -32,8 +32,7 @@
     color: #1D232F;	padding-bottom: 18px;	font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 20px; 
 }
 .Events-panel mat-card-content .icon-panel span{
-    margin-right: 30px;
-    
+    margin-right: 30px; 
 }
 .icon-panel-align{
     height: 26px;	width: 30px; 
@@ -142,8 +141,18 @@ mat-card{
     .nopadding.pd-b-70{
         padding-bottom: 0px;
         padding-top: 0px;
-    }
-    
-    
-    
+    } 
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    .Events-panel mat-card-content .left-content{
+        font-size: 26px;	  
+    }
+    .Events-panel mat-card-content .right-content{
+        font-size: 15px;
+    }
+    .Events-panel mat-card-content .icon-panel span{
+        margin-right: 15px; 
+    }
+  }
+  
