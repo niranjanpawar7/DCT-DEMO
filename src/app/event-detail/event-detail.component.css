@@ -2,7 +2,6 @@ mat-card{
     margin-bottom: 15px; 
     margin-top: 6px;
     box-shadow: 0 6px 24px 0 #E2E9F7 !important;
-    font-family: Lato;
 }
 .divider{
     width: 1px;
@@ -28,7 +27,6 @@ mat-card{
 .bottom-panel p{
     color: #444444;
     font-size: 20px;
-    font-family: Lato;
 }
 .icon-panel{
     padding-top: 15px;
@@ -72,7 +70,6 @@ hr {
 .top-panel .col-md-11.nopadding{
      padding-top: 10px; 
     color: #2B62CA;	
-    font-family: Lato;	
     font-size: 20px;	
     font-weight: bold;
     padding-left: 10px;	 
@@ -82,7 +79,7 @@ hr {
 }  
 .left-panel p:first-child,
 .right-panel p:first-child{
-    color: #1D232F;	font-family: Lato;	font-weight: 500; margin-bottom: 7px;    
+    color: #1D232F;	font-weight: 500; margin-bottom: 7px;    
 }
 .text-size{
     color: #1D232F;	font-size: 18px;	font-weight: 500; margin-bottom: 7px;    
