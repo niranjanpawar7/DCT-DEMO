@@ -12,7 +12,7 @@
     padding-top: 55px;
 }
 .Events-panel mat-card-content{
-    padding-left:  0px;
+    padding-left:  9px;
     padding-right: 0px;
     padding-top: 12px;
     padding-bottom: 18px;
@@ -29,7 +29,7 @@
     color: #1D232F;		font-size: 14px;	line-height: 19px;	text-align: right;
 }
 .Events-panel mat-card-content .middle-panel{
-    color: #1D232F;	padding-bottom: 18px;	font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 20px; 
+    color: #1D232F;	padding-bottom: 18px;	font-size: 14px;	font-weight: 500;	line-height: 17px; padding-top: 12px; 
 }
 .Events-panel mat-card-content .icon-panel span{
     margin-right: 30px; 
@@ -86,6 +86,7 @@ mat-card{
 .training-wrap mat-card{
     float: left;
     width:100%;
+    padding: 17px 39px 18px 25px;
 }
 .progress-badge{
     height: 10px;
@@ -108,9 +109,15 @@ mat-card{
 }
 .font-head{
     font-size: 18px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-left: 10px;
 }
 .font-18{
     font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
 }
 .pd-top-8{
     padding-top: 8px;

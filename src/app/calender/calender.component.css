@@ -50,7 +50,7 @@
     color: #1D232F;		font-size: 16px;  
 }
 .mat-card{
-    padding: 20px 15px;
+    padding: 30px 24px 30px 25px;
     margin-bottom: 15px;
     box-shadow: 0 6px 24px 0 #E2E9F7;
 } 
@@ -69,7 +69,11 @@
     margin-top: 8px;
 }
 .mr-tp-39{
-    margin-top: 39px;
+    margin-top: 34px;
+}
+.header-below-content .mt-title{
+    margin-bottom: 15px;
+    line-height: 21px;
 }
 @media only screen and (max-width: 800px) {
     .mat-tab-group{
