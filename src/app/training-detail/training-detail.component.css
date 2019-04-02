@@ -109,6 +109,9 @@
 .slider-wrapper{
     margin-top: 30px; 
 }
+.header-below-content{
+    padding-top: 25px;
+}
 @media (min-width: 220px) and (max-width: 315px) {
     .training-status {
         float: none;

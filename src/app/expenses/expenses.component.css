@@ -43,7 +43,7 @@
     width: 100%;
 }
 .expesnes-wrapper{
-    margin-bottom:50px; margin-top: 50px;
+    margin-bottom:50px; 
 }
 .mat-table-wd{
     width:100%;
@@ -80,4 +80,7 @@
 }
 .clr-exp-paid{
     color: #7ED321;
+}
+.header-below-content{
+    padding-top: 25px;
 }

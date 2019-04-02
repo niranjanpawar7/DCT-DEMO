@@ -56,7 +56,7 @@
     line-height: 22px;
 }
 .mat-pad-para{
-    padding: 20px 17px 9px 16px;
+    padding: 20px 17px 16px 16px !important;
 }
 .mat-pad-prefer{
     padding: 7px 16px 16px 22px;
@@ -105,6 +105,9 @@
 }
 .image-section-user + div h6{
     margin-top: 0px
+}
+.header-below-content{
+    padding-top: 24px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .align-div-padding{
