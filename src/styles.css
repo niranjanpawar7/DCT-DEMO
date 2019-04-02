@@ -380,16 +380,26 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .mat-tab-header, .mat-tab-nav-bar{
   border-bottom: 1px solid #DBE6F8;
 }
-
-/* 
-.expesnes-wrapper.header-below-content{
-  margin-top: 220px !important;
-}   */
-.Calender .fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+ .Calender .fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
   font-size: 25px;
   color: #1D232F;
   line-height: 30px;
 }
+.mat-horizontal-stepper-header-container, .mat-horizontal-content-container{
+  box-shadow: none !important;
+  /* box-shadow: 0 6px 24px 0 #E2E9F7; */
+  /* -webkit-box-shadow: 0 6px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 6px 24px -0px black; */
+}
+.mat-horizontal-stepper-header-container { 
+  border-radius: 8px;
+}
+.mat-horizontal-content-container{
+  border-radius: 8px;
+}
+ 
+
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
     margin-bottom: 40px !important;
