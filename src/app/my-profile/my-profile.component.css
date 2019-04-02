@@ -32,17 +32,20 @@
     font-weight: 500;	
     line-height: 20px;
     box-shadow: 0 6px 24px 0 #E2E9F7; 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
 } 
 .my-profile-section1 h6{
     padding-left: 0px;
+    margin-bottom: 4px;
 }
 .my-profile-section1 p{
-    padding-bottom: 7px;
+    padding-bottom: 0px;
     color: #444444; 
 }
 .my-profile-section1 h4{
     color: #1D232F;
+    margin-left: 4px;
 }
 .my-profile-info {
     color: #444444;
@@ -50,8 +53,14 @@
 }
 .p-ft-18{
     font-size: 18px !important;
+    line-height: 22px;
 }
-
+.mat-pad-para{
+    padding: 20px 17px 9px 16px;
+}
+.mat-pad-prefer{
+    padding: 7px 16px 16px 22px;
+}
 .button-circle{
     border-radius: 50%;
     background-color: #4479f1;
