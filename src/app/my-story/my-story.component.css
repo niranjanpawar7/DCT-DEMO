@@ -75,6 +75,9 @@
 .mr-tp-32{
     margin-top: 32px;
 }
+.header-below-content{
+    padding-top: 32px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   
     .my-story-section2 mat-card {

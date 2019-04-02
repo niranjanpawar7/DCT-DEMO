@@ -11,7 +11,7 @@
     text-align: left;
     margin-left: 0px;
     text-transform:uppercase;
-    margin-top: -10px;
+    margin-top: 8px;
 }
 .Calender mat-card .left-content{
     color: #1D232F;		font-size: 40px;	line-height: 25px;  padding: 0px;
@@ -74,7 +74,12 @@
 .header-below-content .mt-title{
     margin-bottom: 15px;
     line-height: 21px;
+    margin-top: 13px;
 }
+.header-below-content{
+    padding-top: 17px;
+}
+
 @media only screen and (max-width: 800px) {
     .mat-tab-group{
         width: 100%;
