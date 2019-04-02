@@ -20,17 +20,17 @@
           <span class="visible-xs navbar-brand">Menu</span>
         </div>
         <div class="navbar-collapse sidebar-navbar-collapse nopadding custom-hide">
-          <ul class="nav navbar-nav nav-ul" (click)="menuListClose($event)">
+          <ul class="nav navbar-nav nav-ul nav-pd-wd" (click)="menuListClose($event)">
 
             <li>
               <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']">
                 <span class="nav-pad">
                   <div class="parent-wrapper">
                     <div class="child-wrapper">
-                      <img src="assets/icons/dashboard.svg" (click)="menuListCloseImg($event)"  class="img-responsive" />
+                      <img src="assets/icons/dashboard.svg" (click)="menuListCloseImg($event)"  class="img-responsive" /> 
                       DASHBOARD
-                    </div>
-                  </div>
+                    </div>      
+                    </div> 
                 </span>
               </a>
             </li>
@@ -95,12 +95,21 @@
   </div><!-- col-md-12 -->
   <div class="clearfix"></div>
 </div>
-<div class="col-md-1"></div><!-- col-md-2 -->
+<div class="col-md-1"></div> 
 
-<div class="col-md-11 nopadding">
+<!-- <div class="col-md-11 nopadding">
   <app-header></app-header>
   <div class="col-md-12 main-container">
     <router-outlet></router-outlet>
   </div>
-  <app-footer></app-footer>
+   
+</div> -->
+
+<div class="col-sm-12 nopadding data-container">
+    <app-header></app-header>
+    <div class="col-sm-12 col-lg-10 col-lg-offset-1 main-container">
+        <router-outlet>
+        </router-outlet>
+    </div>
+    <app-footer></app-footer>
 </div>

@@ -118,6 +118,9 @@ mat-card{
 .training-wrap span{
     font-size: 14px;
 }
+.header-below-content{
+    padding-top: 22px;
+}
  
 
 @media only screen and (max-width: 800px) {

@@ -16,14 +16,16 @@
     margin-top: 20px;
     text-align: center;
 }
-.header-section{
-  padding: 13px 60px;
-  background: #F7FAFF;
-  border-bottom: 1px solid #DBE6F8;
-  position: fixed;
-  right: 0px;
-  width: 91.67%;
-  z-index: 999;
+.header-section{ 
+     height: 132px;
+    display: flex;
+    align-items: center;
+    background-color: #eff3f9;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    border-bottom: 1px solid #DBE6F8;
 }
 .header-section .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content{
     top:0px;
@@ -31,7 +33,12 @@
     background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%);
     color: #fff;
 }
-
+.col-lg-10 {
+    width: 88.333333% !important; 
+}
+.col-lg-offset-1 {
+    margin-left: 6.33333333%;
+}
 
 @media only screen and (max-width: 800px) {
     .header-section  { 
