@@ -39,7 +39,7 @@ button, input, select, textarea{
   padding: 15px;
 }
 .mat-tab-body-wrapper .mat-tab-body-content{
-  padding: 15px 0px;
+  padding: 13px 0px;
 }
 mat-card{
   float: left;
@@ -376,7 +376,11 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .expesnes-wrapper.header-below-content{
   margin-top: 220px !important;
 }   */
-
+.Calender .fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+  font-size: 25px;
+  color: #1D232F;
+  line-height: 30px;
+}
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
     margin-bottom: 40px !important;
