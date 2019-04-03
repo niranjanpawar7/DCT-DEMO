@@ -398,7 +398,22 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .mat-horizontal-content-container{
   border-radius: 8px;
 }
+.fc .fc-button-group>:first-child{
+  margin-right: 100px;
+}
+.fc-icon, .fc-toolbar .fc-center { 
+  margin-left: -170px;
+  margin-top: 5px;
+  float: left;
+}
+.fc-icon, .fc-toolbar .fc-center h2{
+  font-size: 14px;
+}
+.fc-toolbar.fc-header-toolbar{
+  margin-bottom: 20px;
+} 
  
+
 
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
