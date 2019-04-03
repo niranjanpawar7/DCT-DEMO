@@ -6,6 +6,10 @@
     margin-top: 16px;
     border-top: 1px solid #DBE6F8;
 }
+.my-story-wrapper hr:first-child{
+    margin-bottom: 0px; 
+    border-width: 1.5px;
+}
 
 .my-story-wrapper .download-button{
     margin-top:25px;
@@ -27,6 +31,7 @@
     /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.09); */
     box-shadow: 0 6px 24px 0 #E2E9F7;
     margin-bottom: 150px;
+    border-radius: 8px;
 } 
 .my-story-section2 mat-card {
     color: #2B62CA; 
@@ -34,6 +39,7 @@
     font-weight: 500;	
     line-height: 20px;
     box-shadow: 0 6px 24px 0 #E2E9F7;
+    border-radius: 8px;
     /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.09); */
 } 
 .my-story-section1 h4{
