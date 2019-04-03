@@ -130,7 +130,20 @@ hr {
   margin-top: 10px;
 }
 .dailog-wrapper .btn-wrap .btn.btn-primary{
-  margin-left: 15px;
+  margin-left: 25px;
+  height: 40px;
+  width: 112px;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #2B62CA;
+  border-color: #2B62CA;
+  border-radius: 0px;
+}
+.dailog-wrapper .btn-wrap .btn-cancel{
+  background-color: #fff;
+  color: #2B62CA;
+  font-size: 16px;
+  line-height: 19px;
 }
 .fc-view, .fc-view>table { 
   background: #fff;
