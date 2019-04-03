@@ -2,6 +2,7 @@ mat-card{
     margin-bottom: 35px; 
     /* margin-top: 6px; */
     box-shadow: 0 6px 24px 0 #E2E9F7 !important;
+    border-radius: 8px;
 }
 .divider{
     width: 1px;

@@ -53,6 +53,7 @@
     padding: 30px 24px 30px 25px;
     margin-bottom: 15px;
     box-shadow: 0 6px 24px 0 #E2E9F7;
+    border-radius: 8px;
 } 
 .icon-panel span{
     margin-right: 21px;
