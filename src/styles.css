@@ -17,8 +17,9 @@ body{
   color: #B6B6B6;
 }
 .mat-form-field-appearance-legacy .mat-form-field-infix{
-  color: #B6B6B6;
+  color: #B6B6B6; 
 }
+
 mat-card button{
   height: 40px !important;
 }
@@ -93,10 +94,10 @@ hr {
 .dailog-wrapper .border-wrap{
   border-right: 1px solid #DBE6F8;  
   border-bottom: 1px solid #DBE6F8; 
-  height: 310px;
+  height: auto;
 }
 .dailog-form-wrap{
-  height: 310px;
+  height: auto;
 }
 .dailog-wrapper .border-wrap p{
   margin-left: 18px;
@@ -123,6 +124,7 @@ hr {
 .dailog-form-wrap hr{
   margin-top: 7px;
   margin-bottom: 10px;
+  border-color:  #DBE6F8;
 }
 .dailog-wrapper .custom-hr{
   margin-top: 0px;
@@ -130,10 +132,10 @@ hr {
   border-top: 1px solid #DBE6F8;
 }
 .mrtp{
-  margin-top: 17px;
+  margin-top: 20px;
 }
 .dailog-wrapper .btn-wrap{
-  margin-top: 10px;
+  margin-top: 17px;
 }
 .dailog-wrapper .btn-wrap .btn.btn-primary{
   margin-left: 25px;
@@ -472,8 +474,21 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
   color: #1D232F !important;
   opacity: 1;
 }
+.dailog-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix{ 
+  padding-left: 10px;
+  height: 40px;
+  padding-top: 12px;
+}
 
-
+.mat-dialog-container { 
+  padding: 15px 24px !important; 
+}
+.dailog-wrapper .fc-scroller.fc-day-grid-container{
+   overflow-x: hidden;
+    overflow-y: scroll;
+    height: 195px !important;
+    max-height: 195px !important;
+}
 
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
@@ -501,22 +516,7 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .dailog-wrapper .border-wrap{ 
-    height: 400px;
-  }
-  .dailog-form-wrap{
-    height: 400px;
-  }
-}
-
-@media (min-width: 1400px) and (max-width: 1600px) {
-  .dailog-wrapper .border-wrap{ 
-    height: 400px;
-  }
-  .dailog-form-wrap{
-    height: 400px;
-  }
-}
+ 
+ 
  
  

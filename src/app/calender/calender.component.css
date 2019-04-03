@@ -90,8 +90,33 @@
 .header-below-content{
     padding-top: 17px;
 }
-
-
+.heading-cal{
+    margin-bottom: 24px;
+}
+.mrtp{
+    margin-top: 24px;
+    margin-bottom: 7px;
+}
+.mtp-15 {
+    margin-top: 22px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.border-wrap{
+    padding-right: 34px;
+}
+.dailog-form-wrap{
+    padding-left: 30px;
+}
+.flex-display{
+    display: flex;
+}
+.br-bottom{
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 25px;
+     display: none;
+}
 @media only screen and (max-width: 800px) {
     .mat-tab-group{
         width: 100%;
