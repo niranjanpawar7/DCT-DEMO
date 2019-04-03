@@ -3,9 +3,8 @@
     background: #fff;
     float: left;
     width: 100%;
-    padding: 0px;
-    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.08); */
-    box-shadow: 0 6px 24px 0 #E2E9F7;
+    padding: 0px; 
+    box-shadow: 0 6px 24px 0 #E2E9F7;  
 }
 .nopadding.pd-b-70{
     padding-bottom: 70px;
@@ -17,13 +16,13 @@
     padding-top: 12px;
     padding-bottom: 18px;
     float: left;
-    width: 100%;
+    width: 100%; 
 }
 .Events-panel mat-card-content .left-content{
     color: #1D232F;		font-size: 48px;	line-height: 35px;
 }
 .Events-panel mat-card-content .right-content{
-    color: #2B62CA;		font-size: 20px;	font-weight: bold;	line-height: 20px; padding-left: 0px; padding-top: 10px;
+    color: #2B62CA;		font-size: 20px;	font-weight: bold;	line-height: 22px; padding-left: 5px; padding-top: 10px;
 }
 .Events-panel mat-card-content .upper-text{
     color: #1D232F;		font-size: 14px;	line-height: 19px;	text-align: right;
@@ -47,6 +46,7 @@
 mat-card{
     cursor: pointer;
 }
+
 .news-wrap mat-card,
 .training-wrap mat-card {
     border-radius: 0px;
@@ -165,4 +165,8 @@ mat-card{
         margin-right: 15px; 
     }
   }
-  
+  /* @media (min-width: 1200px) and (max-width: 1600px){
+    .Events-panel mat-card{
+        height: auto
+    }
+} */

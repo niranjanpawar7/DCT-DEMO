@@ -2,7 +2,7 @@
 
   <div class="col-md-12 dailog-wrapper">
     <p>
-     <b> Select the dates you will be unavailable</b>
+      <b> Select the dates you will be unavailable</b>
     </p>
     <hr class="custom-hr">
 
@@ -33,17 +33,16 @@
                 <mat-radio-button value="1" checked="true">Every</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 p-l-0">
               <mat-form-field>
-                <mat-select placeholder="Monday">
-                  <mat-option *ngFor="let food of foods" [value]="food.value">
-                    {{food.viewValue}}
-                  </mat-option>
+                <mat-select value=Monday>
+                  <mat-option value="Monday">Monday</mat-option>
+                  <mat-option value="tuesday">Tuesday</mat-option>
                 </mat-select>
               </mat-form-field>
             </div>
           </div>
-         
+
           <hr>
 
           <div class="col-md-12 nopadding">
@@ -52,37 +51,34 @@
                 <mat-radio-button value="2">The</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 p-l-0 p-r-0">
               <mat-form-field>
-                <mat-select placeholder="1st">
-                  <mat-option *ngFor="let food of foods" [value]="food.value">
-                    {{food.viewValue}}
-                  </mat-option>
+                <mat-select value=1st>
+                  <mat-option value="1st">1st</mat-option>
+                  <mat-option value="2nd">2nd</mat-option>
                 </mat-select>
               </mat-form-field>
             </div>
-            
-            <div class="col-md-3">
+
+            <div class="col-md-3 p-l-0 p-r-0">
               <mat-form-field>
-                <mat-select placeholder="Monday">
-                  <mat-option *ngFor="let food of foods" [value]="food.value">
-                    {{food.viewValue}}
-                  </mat-option>
+                <mat-select value=Monday>
+                  <mat-option value="Monday">Monday</mat-option>
+                  <mat-option value="tuesday">Tuesday</mat-option>
                 </mat-select>
               </mat-form-field>
             </div>
-            <div class="col-md-1 mrtp">
-                Of
-              </div>
-              <div class="col-md-2">
-                  <mat-form-field>
-                    <mat-select placeholder="Every Month">
-                      <mat-option *ngFor="let food of foods" [value]="food.value">
-                        {{food.viewValue}}
-                      </mat-option>
-                    </mat-select>
-                  </mat-form-field>
-                </div>
+            <div class="col-md-1 mrtp pl-5">
+              Of
+            </div>
+            <div class="col-md-2 p-l-0 p-r-0">
+              <mat-form-field>
+                <mat-select value=1>
+                  <mat-option value="1">1</mat-option>
+                  <mat-option value="2">2</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
           </div>
 
           <hr>
@@ -93,24 +89,22 @@
                 <mat-radio-button value="3">The</mat-radio-button>
               </mat-radio-group>
             </div>
-            <div class="col-md-3">
-                <mat-form-field>
-                  <mat-select placeholder="1st">
-                    <mat-option *ngFor="let food of foods" [value]="food.value">
-                      {{food.viewValue}}
-                    </mat-option>
-                  </mat-select>
-                </mat-form-field>
-              </div>
-            <div class="col-md-1 mrtp">
-                Of
-              </div>
-            <div class="col-md-5">
+            <div class="col-md-3 p-l-0 p-r-0">
               <mat-form-field>
-                <mat-select placeholder="Every Month">
-                  <mat-option *ngFor="let food of foods" [value]="food.value">
-                    {{food.viewValue}}
-                  </mat-option>
+                <mat-select value=1st>
+                  <mat-option value="1st">1st</mat-option>
+                  <mat-option value="2nd">2nd</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-md-1 mrtp pl-5">
+              Of
+            </div>
+            <div class="col-md-5 p-l-0">
+              <mat-form-field>
+                <mat-select value=1>
+                  <mat-option value="1">1</mat-option>
+                  <mat-option value="2">1</mat-option>
                 </mat-select>
               </mat-form-field>
             </div>
@@ -130,9 +124,9 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <div class="col-md-12 text-center btn-wrap"> 
-              <button mat-button class="btn btn-cancel" mat-dialog-close>CANCEL</button>
-              <button mat-button [mat-dialog-close]="true" class="btn btn-primary" cdkFocusInitial>SAVE</button> 
+      <div class="col-md-12 text-center btn-wrap">
+        <button mat-button class="btn btn-cancel" mat-dialog-close>CANCEL</button>
+        <button mat-button [mat-dialog-close]="true" class="btn btn-primary" cdkFocusInitial>SAVE</button>
       </div>
 
     </div>

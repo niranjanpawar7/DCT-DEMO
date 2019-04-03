@@ -4,6 +4,12 @@ body{
   font-family: 'Roboto', sans-serif !important;
   background-color: #eff3f9 !important;
 } 
+.mat-tab-labels, .mat-tab-label, .mat-tab-link { 
+  font-size: 16px;
+  background-color: transparent !important;
+  color: #2B62CA;	
+  line-height: 19px;
+}
 .mat-elevation-z8{
   box-shadow: 0 6px 24px 0 #E2E9F7 !important;
 }
@@ -124,7 +130,7 @@ hr {
   border-top: 1px solid #DBE6F8;
 }
 .mrtp{
-  margin-top: 20px;
+  margin-top: 17px;
 }
 .dailog-wrapper .btn-wrap{
   margin-top: 10px;
@@ -184,6 +190,8 @@ hr {
 .Calender .mat-form-field.mat-focused .mat-form-field-ripple{
   background-color: transparent !important;
 }
+
+
 .expesnes-wrapper.header-below-content .mat-form-field-appearance-legacy .mat-form-field-underline,
 .expesnes-wrapper.header-below-content .mat-form-field.mat-focused .mat-form-field-ripple{
   background-color: #cecece !important;
@@ -360,16 +368,7 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
   padding-bottom: 2.25em !important;
 } */
 
-.Calender .mat-ink-bar { 
-    width: 100%;
-    background-color: white !important;
-    opacity: 0.7;
-    border: 1px solid #DBE6F8;
-    padding: 10px;
-    height: 100%;
-    border-bottom: none;
-    border-top:3px solid #55C4FF;
-}
+
 .mat-horizontal-stepper-header-container,
 .mat-horizontal-content-container {
   box-shadow: 0 6px 24px 0 #E2E9F7;
@@ -411,10 +410,15 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 .mat-horizontal-content-container{
   border-radius: 8px;
 }
+
+/* 
 .fc .fc-button-group>:first-child{
   margin-right: 100px;
 }
-.fc-icon, .fc-toolbar .fc-center { 
+.dailog-wrapper .border-wrap .fc-icon, .fc-toolbar .fc-center {
+  margin-left: -124px; 
+}
+.Calender .fc-icon, .fc-toolbar .fc-center { 
   margin-left: -170px;
   margin-top: 5px;
   float: left;
@@ -424,8 +428,51 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
 }
 .fc-toolbar.fc-header-toolbar{
   margin-bottom: 20px;
-} 
- 
+}  */
+.dailog-wrapper .mat-form-field-appearance-legacy .mat-form-field-underline,
+.dailog-wrapper .mat-form-field.mat-focused .mat-form-field-ripple{
+  background-color: #cecece !important;
+}  
+.dailog-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  color: #B6B6B6;
+  border: 1px solid #cecece;
+}
+.dailog-wrapper .mat-form-field { 
+  margin-top: 11px;
+}
+.dailog-wrapper .mat-select-value-text {
+  color: #2D2A26;
+}
+.dailog-wrapper .mat-select-arrow {
+  color: #2D2A26;
+}
+.expesnes-wrapper .mat-header-cell {
+  font-size: 14px;
+  color: #B6B6B6; 
+  font-size: 14px;
+  line-height: 17px;
+}
+.mat-tab-label{
+  background-color: transparent
+}
+.Calender .mat-ink-bar { 
+  color: #1D232F !important;
+  width: 100%;
+  background-color: white !important; 
+  border: 1px solid #DBE6F8;
+  padding: 10px;
+  height: 100%;
+  border-bottom: none;
+  border-top:3px solid #55C4FF; 
+  z-index: -1;
+  opacity: 1;
+}
+
+.mat-tab-list .mat-tab-labels .mat-tab-label-active{
+  color: #1D232F !important;
+  opacity: 1;
+}
+
 
 
 @media only screen and (max-width: 800px) {
