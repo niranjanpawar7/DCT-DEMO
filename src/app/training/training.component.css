@@ -7,7 +7,7 @@
     margin-top: 14px;
     padding-top: 9px;
     outline: none;
-    cursor: pointer;
+    cursor: pointer; 
 } 
 hr{
     border-top: 1px solid #DBE6F8;
@@ -84,6 +84,15 @@ a:hover {
 }
 .header-below-content{
     padding-top: 17px;
+}
+.p-rl-24{
+    padding: 0px 24px;
+}
+.p-l-24{
+    padding-left: 24px;
+}
+.p-r-24{
+    padding-right: 24px;
 }
 @media (min-width: 220px) and (max-width: 315px) {
     .training-floating {

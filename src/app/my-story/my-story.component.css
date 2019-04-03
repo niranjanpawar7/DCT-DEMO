@@ -54,16 +54,14 @@
     font-size: 17px;
 }
 .download-button {
-    border: 1px solid #2B62CA; 
-    /* padding: 12px; */
-    width: 100%; 
-    background-color: #f7faff; 
+    border: 1px solid #2B62CA;  
+    width: 157px; 
+    background-color: #fff; 
 }
 .download-button-section2 {
-    border: 1px solid #2B62CA;
-    /* padding: 12px; */
-    width: 50%; 
-    background-color: #f7faff;
+    border: 1px solid #2B62CA; 
+    width: 157px; 
+    background-color: #fff;
 }
 .my-story-heading {
     padding-bottom: 18px;
@@ -77,6 +75,19 @@
 }
 .header-below-content{
     padding-top: 32px;
+}
+.row.custom-row{
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.download-button-bottom{
+    margin-bottom: 26px;
+}
+.row.custom-row .col-md-8{
+    padding-right: 0px;
+}
+.row.custom-row .col-md-4{
+    text-align: right;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   

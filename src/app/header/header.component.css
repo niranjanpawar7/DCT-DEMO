@@ -34,10 +34,10 @@
     color: #fff;
 }
 .col-lg-10 {
-    width: 91.333333% !important; 
+    width: 92.333333% !important; 
 }
 .col-lg-offset-1 {
-    margin-left: 4.33333333%;
+    margin-left: 3.33333333%;
 }
 
 @media only screen and (max-width: 800px) {
