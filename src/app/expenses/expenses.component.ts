@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Location } from '@angular/common';
 
 export interface PeriodicElement {
   PURPOSE: string;
@@ -38,7 +39,7 @@ export class ExpensesComponent implements OnInit {
   secondFormGroup: FormGroup;
   thirdFormGroup: FormGroup;
 
-  constructor(private _formBuilder: FormBuilder) { }
+  constructor(private _formBuilder: FormBuilder,private _location: Location) { }
 
   ngOnInit() {
     this.firstFormGroup = this._formBuilder.group({
@@ -60,5 +61,8 @@ export class ExpensesComponent implements OnInit {
       this.button_name = "Hide Login Form!";
     else
       this.button_name = "Show Login Form!";
+  }
+  goBack(){
+    this._location.back();
   }
 }

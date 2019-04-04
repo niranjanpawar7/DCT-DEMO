@@ -41,6 +41,7 @@
 .Calender mat-card .icon-panel span{
     margin-right: 15px;
     cursor: pointer;
+    outline: none;
 }
 .Calender mat-card .right-content{
     color: #2B62CA;
@@ -49,6 +50,7 @@
     padding-top: 25px;
     cursor: pointer;
     padding-bottom: 15px;
+    outline: none;
 }
 .Calender mat-card .list-id{
     color: #1D232F;

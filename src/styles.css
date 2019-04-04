@@ -489,7 +489,22 @@ td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
     height: 195px !important;
     max-height: 195px !important;
 }
-
+.header-below-content td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+  padding-left: 3px;
+}
+.header-below-content td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+  padding-left: 3px !important;
+}
+.header-below-content td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type, th.mat-header-cell:last-of-type {
+  padding-right: 6px;
+}
+.header-below-content table.mat-table {
+  border-left: 23px solid white;
+  border-right: 21px solid white;
+}
+.header-below-content .mat-cell, .mat-footer-cell {
+  color: #1D232F;
+}
 @media only screen and (max-width: 800px) {
   .my-story-section1 mat-card {
     margin-bottom: 40px !important;
