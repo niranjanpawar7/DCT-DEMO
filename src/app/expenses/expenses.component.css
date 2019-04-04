@@ -84,3 +84,6 @@
 .header-below-content{
     padding-top: 25px;
 }
+.a-back{
+    cursor: pointer;
+}
